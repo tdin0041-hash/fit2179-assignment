@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Vega-Lite Chart</title>
+
+  <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+</head>
+
+<body>
+
+<div id="vis"></div>
+
+<script>
+const spec = {
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+  "description": "Coffee consumption chart",
+
+  "data": {
+    "url": "coffee_consumption.csv"
+  },
+
+  "mark": "bar",
+
+  "encoding": {
+    "x": {
+      "field": "Country",
+      "type": "nominal"
+    },
+
+    "y": {
+      "field": "Coffee Consumption (kg per capita per year)",
+      "type": "quantitative"
+    }
+  }
+};
+
+vegaEmbed('#vis', spec);
+</script>
+
+</body>
+</html>

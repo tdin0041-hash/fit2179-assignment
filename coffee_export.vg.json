@@ -1,0 +1,107 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+  "title": {
+    "text": "Global Coffee Exporters — Total Volume (1990–2019)",
+    "subtitle": "All coffee-exporting countries ranked by total export volume",
+    "fontSize": 18,
+    "subtitleFontSize": 13,
+    "anchor": "start"
+  },
+  "width": 600,
+  "height": 1050,
+  "data": {
+    "url": "https://raw.githubusercontent.com/tdin0041-hash/fit2179-assignment/refs/heads/main/coffee_export.csv"
+  },
+  "transform": [
+    {
+      "aggregate": [
+        {"op": "sum", "field": "Export_tonnes", "as": "Total_export"}
+      ],
+      "groupby": ["Country"]
+    },
+    {
+      "calculate": "datum.Country == 'Viet Nam' ? 'Vietnam' : datum.Country == 'Bolivia (Plurinational State of)' ? 'Bolivia' : datum.Country == 'Democratic Republic of Congo' ? 'DR Congo' : datum.Country == 'Central African Republic' ? 'C. African Rep.' : datum.Country",
+      "as": "Country_label"
+    },
+    {
+      "calculate": "indexof(['Brazil','Colombia','Honduras','Guatemala','Peru','Costa Rica','El Salvador','Nicaragua','Ecuador','Mexico','Venezuela','Dominican Republic','Panama','Bolivia','Cuba','Haiti','Jamaica','Guyana'], datum.Country_label) >= 0 ? 'Latin America' : indexof(['Vietnam','Indonesia','India','Thailand','Philippines','Yemen','Sri Lanka','Timor-Leste','Nepal'], datum.Country_label) >= 0 ? 'Asia' : indexof(['Papua New Guinea'], datum.Country_label) >= 0 ? 'Oceania' : 'Africa'",
+      "as": "Region"
+    }
+  ],
+  "layer": [
+    {
+      "mark": {"type": "rule", "strokeWidth": 1.5, "opacity": 0.6},
+      "encoding": {
+        "y": {
+          "field": "Country_label",
+          "type": "nominal",
+          "sort": {"field": "Total_export", "op": "max", "order": "descending"},
+          "axis": {"title": null, "labelFontSize": 10}
+        },
+        "x": {
+          "field": "Total_export",
+          "type": "quantitative",
+          "axis": {
+            "title": "Total Export Volume (tonnes)",
+            "format": "~s",
+            "grid": true,
+            "gridDash": [3, 3],
+            "gridColor": "#e0e0e0",
+            "titleFontSize": 11
+          }
+        },
+        "x2": {"datum": 0},
+        "color": {
+          "field": "Region",
+          "type": "nominal",
+          "scale": {
+            "domain": ["Latin America", "Asia", "Africa", "Oceania"],
+            "range": ["#8B4513", "#1a7abf", "#2a9d4e", "#e67e22"]
+          }
+        }
+      }
+    },
+    {
+      "mark": {"type": "point", "filled": true, "size": 80},
+      "encoding": {
+        "y": {
+          "field": "Country_label",
+          "type": "nominal",
+          "sort": {"field": "Total_export", "op": "max", "order": "descending"}
+        },
+        "x": {
+          "field": "Total_export",
+          "type": "quantitative"
+        },
+        "color": {
+          "field": "Region",
+          "type": "nominal",
+          "scale": {
+            "domain": ["Latin America", "Asia", "Africa", "Oceania"],
+            "range": ["#8B4513", "#1a7abf", "#2a9d4e", "#e67e22"]
+          },
+          "legend": {
+            "title": "Region",
+            "orient": "bottom-right",
+            "titleFontSize": 11,
+            "labelFontSize": 10
+          }
+        },
+        "tooltip": [
+          {"field": "Country_label", "type": "nominal", "title": "Country"},
+          {"field": "Region", "type": "nominal", "title": "Region"},
+          {
+            "field": "Total_export",
+            "type": "quantitative",
+            "title": "Total Exports (tonnes)",
+            "format": ","
+          }
+        ]
+      }
+    }
+  ],
+  "config": {
+    "view": {"stroke": null},
+    "axis": {"grid": false}
+  }
+}

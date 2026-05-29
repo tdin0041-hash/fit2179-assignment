@@ -1,0 +1,110 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+  "title": {
+    "text": "How Has Coffee Importing Changed?",
+    "subtitle": "Import volume in 1990 vs 2019 for top importing countries (tonnes)",
+    "fontSize": 18,
+    "subtitleFontSize": 13,
+    "anchor": "start"
+  },
+  "width": 600,
+  "height": 450,
+  "data": {
+    "url": "https://raw.githubusercontent.com/tdin0041-hash/fit2179-assignment/refs/heads/main/coffee_import.csv",
+    "format": {
+      "type": "csv",
+      "parse": {
+        "Year": "number",
+        "Import_tonnes": "number"
+      }
+    }
+  },
+  "transform": [
+    {
+      "filter": "datum.Year == 1990 || datum.Year == 2019"
+    },
+    {
+      "filter": {
+        "field": "Country",
+        "oneOf": [
+          "United States of America", "Germany", "Italy", "Japan",
+          "France", "Spain", "United Kingdom", "Czechia",
+          "Netherlands", "Greece", "Poland", "Switzerland",
+          "Sweden", "Austria", "Finland"
+        ]
+      }
+    },
+    {
+      "calculate": "datum.Country == 'United States of America' ? 'United States' : datum.Country == 'Russian Federation' ? 'Russia' : datum.Country == 'United Kingdom' ? 'UK' : datum.Country",
+      "as": "Country_label"
+    }
+  ],
+  "layer": [
+    {
+      "transform": [
+        {
+          "aggregate": [
+            {"op": "min", "field": "Import_tonnes", "as": "min_import"},
+            {"op": "max", "field": "Import_tonnes", "as": "max_import"}
+          ],
+          "groupby": ["Country_label"]
+        }
+      ],
+      "mark": {"type": "rule", "strokeWidth": 2},
+      "encoding": {
+        "y": {
+          "field": "Country_label",
+          "type": "nominal",
+          "sort": {"field": "max_import", "order": "descending"},
+          "axis": {"title": null, "labelFontSize": 11}
+        },
+        "x": {"field": "min_import", "type": "quantitative"},
+        "x2": {"field": "max_import"},
+        "color": {"value": "#c47c3e"}
+      }
+    },
+    {
+      "mark": {"type": "point", "filled": true, "size": 100},
+      "encoding": {
+        "y": {
+          "field": "Country_label",
+          "type": "nominal",
+          "sort": {"field": "Import_tonnes", "op": "max", "order": "descending"}
+        },
+        "x": {
+          "field": "Import_tonnes",
+          "type": "quantitative",
+          "axis": {
+            "title": "Import Volume (tonnes)",
+            "format": "~s",
+            "grid": true,
+            "gridDash": [3, 3],
+            "gridColor": "#e0e0e0",
+            "titleFontSize": 11
+          }
+        },
+        "color": {
+          "field": "Year",
+          "type": "ordinal",
+          "scale": {
+            "domain": [1990, 2019],
+            "range": ["#d4956a", "#4e2a04"]
+          },
+          "legend": {
+            "title": "Year",
+            "orient": "top-right",
+            "titleFontSize": 11,
+            "labelFontSize": 11,
+            "symbolSize": 120
+          }
+        },
+        "tooltip": [
+          {"field": "Country_label", "type": "nominal", "title": "Country"},
+          {"field": "Year", "type": "ordinal", "title": "Year"},
+          {"field": "Import_tonnes", "type": "quantitative", "title": "Imports (tonnes)", "format": ","}
+        ]
+      }
+    }
+  ],
+  "config": {"view": {"stroke": null}, "axis": {"grid": false}}
+}

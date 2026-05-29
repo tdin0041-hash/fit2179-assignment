@@ -1,0 +1,124 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 900,
+  "height": 480,
+  "projection": {"type": "equalEarth"},
+  "params": [
+    {
+      "name": "metric",
+      "value": "per_capita",
+      "bind": {
+        "input": "radio",
+        "options": ["per_capita", "total"],
+        "labels": ["Per Capita (kg / person)", "Total Consumption (tonnes)"],
+        "name": "View: "
+      }
+    }
+  ],
+  "title": {
+    "text": "Global Coffee Consumption In 2026",
+    "fontSize": 18,
+    "subtitleFontSize": 13,
+    "anchor": "start"
+  },
+  "layer": [
+    {
+      "data": {
+        "url": "https://cdn.jsdelivr.net/npm/vega-datasets@v1.29.0/data/world-110m.json",
+        "format": {"type": "topojson", "feature": "countries"}
+      },
+      "mark": {
+        "type": "geoshape",
+        "fill": "#d9d9d9",
+        "stroke": "#ffffff",
+        "strokeWidth": 0.4
+      }
+    },
+    {
+      "data": {
+        "url": "https://cdn.jsdelivr.net/npm/vega-datasets@v1.29.0/data/world-110m.json",
+        "format": {"type": "topojson", "feature": "countries"}
+      },
+      "transform": [
+        {
+          "calculate": "toNumber(datum.id)",
+          "as": "numeric_id"
+        },
+        {
+          "lookup": "numeric_id",
+          "from": {
+            "data": {
+              "url": "https://raw.githubusercontent.com/tdin0041-hash/fit2179-assignment/refs/heads/main/coffee%20consumptions.csv",
+              "format": {
+                "type": "csv",
+                "parse": {
+                  "id": "number",
+                  "Coffee_kg_per_capita": "number",
+                  "Imports_tonnes": "number"
+                }
+              }
+            },
+            "key": "id",
+            "fields": ["Country", "Coffee_kg_per_capita", "Imports_tonnes"]
+          }
+        },
+        {
+          "calculate": "metric == 'per_capita' ? datum.Coffee_kg_per_capita : datum.Imports_tonnes",
+          "as": "display_value"
+        },
+        {
+          "filter": "datum.display_value != null && datum.display_value > 0"
+        }
+      ],
+      "mark": {
+        "type": "geoshape",
+        "stroke": "#ffffff",
+        "strokeWidth": 0.4
+      },
+      "encoding": {
+        "color": {
+          "field": "display_value",
+          "type": "quantitative",
+          "scale": {
+            "type": "log",
+            "scheme": "oranges"
+          },
+          "legend": {
+            "title": {"expr": "metric == 'per_capita' ? 'kg per capita' : 'Total consumption (tonnes)'"},
+            "orient": "bottom-right",
+            "titleFontSize": 12,
+            "labelFontSize": 11,
+            "gradientLength": 200
+          }
+        },
+        "tooltip": [
+          {"field": "Country", "type": "nominal", "title": "Country"},
+          {
+            "field": "Coffee_kg_per_capita",
+            "type": "quantitative",
+            "title": "Per Capita (kg/person)",
+            "format": ".2f"
+          },
+          {
+            "field": "Imports_tonnes",
+            "type": "quantitative",
+            "title": "Total Consumption (tonnes)",
+            "format": ","
+          }
+        ]
+      }
+    },
+    {
+      "data": {
+        "url": "https://cdn.jsdelivr.net/npm/vega-datasets@v1.29.0/data/world-110m.json",
+        "format": {"type": "topojson", "feature": "graticule"}
+      },
+      "mark": {
+        "type": "geoshape",
+        "filled": false,
+        "stroke": "#aacce4",
+        "strokeWidth": 0.3
+      }
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+  "title": {
+    "text": "Do Coffee Producers Export Everything They Grow?",
+    "subtitle": "Production vs export volume for top 10 producers (1990–2018). Points closer to the diagonal export almost all they produce.",
+    "fontSize": 18,
+    "subtitleFontSize": 13,
+    "anchor": "start"
+  },
+  "width": 600,
+  "height": 500,
+  "data": {
+    "url": "https://raw.githubusercontent.com/tdin0041-hash/fit2179-assignment/refs/heads/main/coffee_prod_export.csv"
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "line",
+        "point": false,
+        "strokeWidth": 1.2,
+        "opacity": 0.4
+      },
+      "encoding": {
+        "x": {"field": "Production_tonnes", "type": "quantitative"},
+        "y": {"field": "Export_tonnes", "type": "quantitative"},
+        "color": {
+          "field": "Country",
+          "type": "nominal",
+          "scale": {"scheme": "tableau10"}
+        },
+        "detail": {"field": "Country", "type": "nominal"},
+        "order": {"field": "Year", "type": "quantitative"}
+      }
+    },
+    {
+      "mark": {"type": "point", "filled": true, "opacity": 0.9},
+      "encoding": {
+        "x": {
+          "field": "Production_tonnes",
+          "type": "quantitative",
+          "axis": {
+            "title": "Production (tonnes)",
+            "format": "~s",
+            "grid": true,
+            "gridDash": [3, 3],
+            "gridColor": "#e0e0e0",
+            "titleFontSize": 11
+          }
+        },
+        "y": {
+          "field": "Export_tonnes",
+          "type": "quantitative",
+          "scale": {"domain": [0, 2500000]},
+          "axis": {
+            "title": "Export (tonnes)",
+            "format": "~s",
+            "grid": true,
+            "gridDash": [3, 3],
+            "gridColor": "#e0e0e0",
+            "titleFontSize": 11
+          }
+        },
+        "color": {
+          "field": "Country",
+          "type": "nominal",
+          "scale": {"scheme": "tableau10"},
+          "legend": {
+            "title": "Country",
+            "orient": "right",
+            "titleFontSize": 12,
+            "labelFontSize": 11,
+            "symbolSize": 150,
+            "symbolType": "circle"
+          }
+        },
+        "size": {
+          "field": "Year",
+          "type": "quantitative",
+          "scale": {"range": [40, 220]},
+          "legend": null
+        },
+        "tooltip": [
+          {"field": "Country", "type": "nominal", "title": "Country"},
+          {"field": "Year", "type": "quantitative", "title": "Year", "format": "d"},
+          {"field": "Production_tonnes", "type": "quantitative", "title": "Production (tonnes)", "format": ","},
+          {"field": "Export_tonnes", "type": "quantitative", "title": "Export (tonnes)", "format": ","}
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "line",
+        "color": "#999",
+        "strokeDash": [6, 4],
+        "strokeWidth": 1.5
+      },
+      "data": {
+        "values": [
+          {"x": 0, "y": 0},
+          {"x": 2500000, "y": 2500000}
+        ]
+      },
+      "encoding": {
+        "x": {"field": "x", "type": "quantitative"},
+        "y": {"field": "y", "type": "quantitative"}
+      }
+    }
+  ],
+  "config": {"view": {"stroke": null}}
+}

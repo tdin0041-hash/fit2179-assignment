@@ -39,12 +39,15 @@
     "y": {
       "field": "Production_tonnes",
       "type": "quantitative",
-      "stack": "center",
+      "stack": true,
       "axis": {
-        "title": null,
-        "labels": false,
-        "ticks": false,
-        "grid": false
+        "title": "Production (tonnes)",
+        "titleFontSize": 11,
+        "labelFontSize": 10,
+        "format": "~s",
+        "grid": true,
+        "gridDash": [3, 3],
+        "gridColor": "#e0e0e0"
       }
     },
     "color": {

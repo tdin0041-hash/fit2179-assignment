@@ -1,0 +1,1574 @@
+Country,Coffee_type,Year,Production_tonnes
+Angola,Mixed,1990,3000.0
+Bolivia (Plurinational State of),Arabica,1990,7380.0
+Brazil,Mixed,1990,1637160.0
+Burundi,Mixed,1990,29220.0
+Ecuador,Mixed,1990,90240.0
+Indonesia,Mixed,1990,446460.0
+Madagascar,Robusta,1990,58920.0
+Malawi,Arabica,1990,6300.0
+Papua New Guinea,Mixed,1990,57780.0
+Paraguay,Arabica,1990,7860.0
+Peru,Arabica,1990,56220.0
+Rwanda,Arabica,1990,32100.0
+Zimbabwe,Arabica,1990,15120.0
+Congo,Robusta,1990,180.0
+Cuba,Arabica,1990,24840.0
+Dominican Republic,Mixed,1990,52800.0
+Haiti,Arabica,1990,23580.0
+Philippines,Mixed,1990,58440.0
+Tanzania,Mixed,1990,55920.0
+Zambia,Arabica,1990,1380.0
+Cameroon,Mixed,1990,100920.0
+Central African Republic,Robusta,1990,10500.0
+Colombia,Arabica,1990,863760.0
+Costa Rica,Arabica,1990,153720.0
+Côte d'Ivoire,Robusta,1990,176400.0
+Democratic Republic of Congo,Mixed,1990,94800.0
+El Salvador,Arabica,1990,147900.0
+Equatorial Guinea,Robusta,1990,240.0
+Ethiopia,Arabica,1990,174540.0
+Gabon,Robusta,1990,180.0
+Ghana,Robusta,1990,2280.0
+Guatemala,Mixed,1990,196260.0
+Guinea,Robusta,1990,2640.0
+Honduras,Arabica,1990,94080.0
+India,Mixed,1990,169740.0
+Jamaica,Arabica,1990,1380.0
+Kenya,Arabica,1990,89100.0
+Liberia,Robusta,1990,180.0
+Mexico,Mixed,1990,280440.0
+Nicaragua,Arabica,1990,27660.0
+Nigeria,Robusta,1990,1740.0
+Panama,Arabica,1990,12900.0
+Sierra Leone,Robusta,1990,2580.0
+Sri Lanka,Mixed,1990,5760.0
+Thailand,Mixed,1990,45420.0
+Togo,Robusta,1990,9660.0
+Trinidad & Tobago,Robusta,1990,900.0
+Uganda,Mixed,1990,117300.0
+Venezuela,Arabica,1990,67320.0
+Viet Nam,Mixed,1990,78600.0
+Angola,Mixed,1991,4740.0
+Bolivia (Plurinational State of),Arabica,1991,6240.0
+Brazil,Mixed,1991,1637580.0
+Burundi,Mixed,1991,40020.0
+Ecuador,Mixed,1991,127440.0
+Indonesia,Mixed,1991,509580.0
+Madagascar,Robusta,1991,55980.0
+Malawi,Arabica,1991,7440.0
+Papua New Guinea,Mixed,1991,44820.0
+Paraguay,Arabica,1991,4800.0
+Peru,Arabica,1991,72000.0
+Rwanda,Arabica,1991,29040.0
+Zimbabwe,Arabica,1991,12060.0
+Congo,Robusta,1991,180.0
+Cuba,Arabica,1991,18120.0
+Dominican Republic,Mixed,1991,19260.0
+Haiti,Arabica,1991,27780.0
+Philippines,Mixed,1991,61080.0
+Tanzania,Mixed,1991,47400.0
+Zambia,Arabica,1991,1740.0
+Cameroon,Mixed,1991,103560.0
+Central African Republic,Robusta,1991,7500.0
+Colombia,Arabica,1991,1078800.0
+Costa Rica,Arabica,1991,165600.0
+Côte d'Ivoire,Robusta,1991,247740.0
+Democratic Republic of Congo,Mixed,1991,73800.0
+El Salvador,Arabica,1991,131880.0
+Equatorial Guinea,Robusta,1991,180.0
+Ethiopia,Arabica,1991,175500.0
+Gabon,Robusta,1991,120.0
+Ghana,Robusta,1991,4560.0
+Guatemala,Mixed,1991,209820.0
+Guinea,Robusta,1991,5460.0
+Honduras,Arabica,1991,139320.0
+India,Mixed,1991,180000.0
+Jamaica,Arabica,1991,2340.0
+Kenya,Arabica,1991,90840.0
+Liberia,Robusta,1991,180.0
+Mexico,Mixed,1991,283620.0
+Nicaragua,Arabica,1991,42420.0
+Nigeria,Robusta,1991,2640.0
+Panama,Arabica,1991,11580.0
+Sierra Leone,Robusta,1991,3240.0
+Sri Lanka,Mixed,1991,4920.0
+Thailand,Mixed,1991,88140.0
+Togo,Robusta,1991,25980.0
+Trinidad & Tobago,Robusta,1991,1080.0
+Uganda,Mixed,1991,125280.0
+Venezuela,Arabica,1991,56460.0
+Viet Nam,Mixed,1991,86280.0
+Angola,Mixed,1992,4680.0
+Bolivia (Plurinational State of),Arabica,1992,7200.0
+Brazil,Mixed,1992,2076180.0
+Burundi,Mixed,1992,37200.0
+Ecuador,Mixed,1992,71100.0
+Indonesia,Mixed,1992,334140.0
+Madagascar,Robusta,1992,67320.0
+Malawi,Arabica,1992,8220.0
+Papua New Guinea,Mixed,1992,54000.0
+Paraguay,Arabica,1992,3240.0
+Peru,Arabica,1992,105720.0
+Rwanda,Arabica,1992,38340.0
+Zimbabwe,Arabica,1992,4680.0
+Congo,Robusta,1992,180.0
+Cuba,Arabica,1992,17040.0
+Dominican Republic,Mixed,1992,38280.0
+Haiti,Arabica,1992,30000.0
+Philippines,Mixed,1992,55200.0
+Tanzania,Mixed,1992,47160.0
+Zambia,Arabica,1992,1740.0
+Cameroon,Mixed,1992,15600.0
+Central African Republic,Robusta,1992,8040.0
+Colombia,Arabica,1992,896820.0
+Costa Rica,Arabica,1992,179880.0
+Côte d'Ivoire,Robusta,1992,134760.0
+Democratic Republic of Congo,Mixed,1992,70800.0
+El Salvador,Arabica,1992,180060.0
+Equatorial Guinea,Robusta,1992,120.0
+Ethiopia,Arabica,1992,109500.0
+Gabon,Robusta,1992,180.0
+Ghana,Robusta,1992,2220.0
+Guatemala,Mixed,1992,259080.0
+Guinea,Robusta,1992,4560.0
+Honduras,Arabica,1992,115080.0
+India,Mixed,1992,169380.0
+Jamaica,Arabica,1992,1560.0
+Kenya,Arabica,1992,78960.0
+Liberia,Robusta,1992,180.0
+Mexico,Mixed,1992,204060.0
+Nicaragua,Arabica,1992,32820.0
+Nigeria,Robusta,1992,2940.0
+Panama,Arabica,1992,11820.0
+Sierra Leone,Robusta,1992,2340.0
+Sri Lanka,Mixed,1992,3180.0
+Thailand,Mixed,1992,75300.0
+Togo,Robusta,1992,5160.0
+Trinidad & Tobago,Robusta,1992,840.0
+Uganda,Mixed,1992,131100.0
+Venezuela,Arabica,1992,72900.0
+Viet Nam,Mixed,1992,140400.0
+Angola,Mixed,1993,1980.0
+Bolivia (Plurinational State of),Arabica,1993,3060.0
+Brazil,Mixed,1993,1690020.0
+Burundi,Mixed,1993,23580.0
+Ecuador,Mixed,1993,124140.0
+Indonesia,Mixed,1993,404580.0
+Madagascar,Robusta,1993,26520.0
+Malawi,Arabica,1993,3720.0
+Papua New Guinea,Mixed,1993,61140.0
+Paraguay,Arabica,1993,4020.0
+Peru,Arabica,1993,39900.0
+Rwanda,Arabica,1993,26640.0
+Zimbabwe,Arabica,1993,720.0
+Congo,Robusta,1993,180.0
+Cuba,Arabica,1993,17100.0
+Dominican Republic,Mixed,1993,36240.0
+Haiti,Arabica,1993,27060.0
+Philippines,Mixed,1993,52500.0
+Tanzania,Mixed,1993,44040.0
+Zambia,Arabica,1993,1620.0
+Cameroon,Mixed,1993,40980.0
+Central African Republic,Robusta,1993,9960.0
+Colombia,Arabica,1993,685320.0
+Costa Rica,Arabica,1993,141540.0
+Côte d'Ivoire,Robusta,1993,137580.0
+Democratic Republic of Congo,Mixed,1993,58800.0
+El Salvador,Arabica,1993,142680.0
+Ethiopia,Arabica,1993,178020.0
+Gabon,Robusta,1993,180.0
+Ghana,Robusta,1993,2700.0
+Guatemala,Mixed,1993,212160.0
+Guinea,Robusta,1993,3840.0
+Honduras,Arabica,1993,109740.0
+India,Mixed,1993,211980.0
+Jamaica,Arabica,1993,2040.0
+Kenya,Arabica,1993,79680.0
+Liberia,Robusta,1993,300.0
+Mexico,Mixed,1993,301380.0
+Nicaragua,Arabica,1993,42360.0
+Nigeria,Robusta,1993,2700.0
+Panama,Arabica,1993,8520.0
+Sierra Leone,Robusta,1993,2220.0
+Sri Lanka,Mixed,1993,3240.0
+Thailand,Mixed,1993,76500.0
+Togo,Robusta,1993,11700.0
+Trinidad & Tobago,Robusta,1993,960.0
+Uganda,Mixed,1993,188520.0
+Venezuela,Arabica,1993,79980.0
+Viet Nam,Mixed,1993,181200.0
+Angola,Mixed,1994,4620.0
+Bolivia (Plurinational State of),Arabica,1994,7020.0
+Brazil,Mixed,1994,1691520.0
+Burundi,Mixed,1994,39840.0
+Ecuador,Mixed,1994,142560.0
+Indonesia,Mixed,1994,322080.0
+Madagascar,Robusta,1994,38460.0
+Malawi,Arabica,1994,5040.0
+Papua New Guinea,Mixed,1994,68340.0
+Paraguay,Arabica,1994,1500.0
+Peru,Arabica,1994,70740.0
+Rwanda,Arabica,1994,1320.0
+Zimbabwe,Arabica,1994,6360.0
+Congo,Robusta,1994,480.0
+Cuba,Arabica,1994,17040.0
+Dominican Republic,Mixed,1994,43800.0
+Haiti,Arabica,1994,27000.0
+Philippines,Mixed,1994,52620.0
+Tanzania,Mixed,1994,40740.0
+Zambia,Arabica,1994,1260.0
+Cameroon,Mixed,1994,24360.0
+Central African Republic,Robusta,1994,15000.0
+Colombia,Arabica,1994,777840.0
+Costa Rica,Arabica,1994,148920.0
+Côte d'Ivoire,Robusta,1994,180360.0
+Democratic Republic of Congo,Mixed,1994,77880.0
+El Salvador,Arabica,1994,137580.0
+Equatorial Guinea,Robusta,1994,180.0
+Ethiopia,Arabica,1994,165780.0
+Gabon,Robusta,1994,480.0
+Ghana,Robusta,1994,3420.0
+Guatemala,Mixed,1994,227220.0
+Guinea,Robusta,1994,11880.0
+Honduras,Arabica,1994,130860.0
+India,Mixed,1994,180120.0
+Jamaica,Arabica,1994,2700.0
+Kenya,Arabica,1994,99780.0
+Liberia,Robusta,1994,300.0
+Mexico,Mixed,1994,249540.0
+Nicaragua,Arabica,1994,40980.0
+Nigeria,Robusta,1994,3120.0
+Panama,Arabica,1994,14880.0
+Sierra Leone,Robusta,1994,4380.0
+Sri Lanka,Mixed,1994,2520.0
+Thailand,Mixed,1994,83940.0
+Togo,Robusta,1994,10560.0
+Trinidad & Tobago,Robusta,1994,1080.0
+Uganda,Mixed,1994,143580.0
+Venezuela,Arabica,1994,59340.0
+Viet Nam,Mixed,1994,217920.0
+Angola,Mixed,1995,3720.0
+Bolivia (Plurinational State of),Arabica,1995,8520.0
+Brazil,Mixed,1995,1083600.0
+Burundi,Mixed,1995,26040.0
+Ecuador,Mixed,1995,113280.0
+Indonesia,Mixed,1995,274380.0
+Madagascar,Robusta,1995,47100.0
+Malawi,Arabica,1995,5460.0
+Papua New Guinea,Mixed,1995,60120.0
+Paraguay,Arabica,1995,1560.0
+Peru,Arabica,1995,112260.0
+Rwanda,Arabica,1995,19740.0
+Zimbabwe,Arabica,1995,7860.0
+Congo,Robusta,1995,720.0
+Cuba,Arabica,1995,17100.0
+Dominican Republic,Mixed,1995,53160.0
+Haiti,Arabica,1995,30840.0
+Philippines,Mixed,1995,51000.0
+Tanzania,Mixed,1995,53820.0
+Zambia,Arabica,1995,1560.0
+Cameroon,Mixed,1995,39600.0
+Central African Republic,Robusta,1995,6480.0
+Colombia,Arabica,1995,776280.0
+Costa Rica,Arabica,1995,170640.0
+Côte d'Ivoire,Robusta,1995,151920.0
+Democratic Republic of Congo,Mixed,1995,65880.0
+El Salvador,Arabica,1995,155100.0
+Equatorial Guinea,Robusta,1995,120.0
+Ethiopia,Arabica,1995,189900.0
+Gabon,Robusta,1995,120.0
+Ghana,Robusta,1995,3420.0
+Guatemala,Mixed,1995,240120.0
+Guinea,Robusta,1995,6240.0
+Honduras,Arabica,1995,114540.0
+India,Mixed,1995,240720.0
+Jamaica,Arabica,1995,2580.0
+Kenya,Arabica,1995,99840.0
+Liberia,Robusta,1995,300.0
+Mexico,Mixed,1995,318000.0
+Nicaragua,Arabica,1995,59100.0
+Nigeria,Robusta,1995,3180.0
+Panama,Arabica,1995,12540.0
+Sierra Leone,Robusta,1995,2640.0
+Sri Lanka,Mixed,1995,2160.0
+Thailand,Mixed,1995,79020.0
+Togo,Robusta,1995,5040.0
+Trinidad & Tobago,Robusta,1995,1080.0
+Uganda,Mixed,1995,194640.0
+Venezuela,Arabica,1995,88020.0
+Viet Nam,Mixed,1995,238200.0
+Angola,Mixed,1996,4260.0
+Bolivia (Plurinational State of),Arabica,1996,7500.0
+Brazil,Mixed,1996,1751820.0
+Burundi,Mixed,1996,24060.0
+Ecuador,Mixed,1996,119580.0
+Indonesia,Mixed,1996,493260.0
+Madagascar,Robusta,1996,50940.0
+Malawi,Arabica,1996,2940.0
+Papua New Guinea,Mixed,1996,65340.0
+Paraguay,Arabica,1996,1860.0
+Peru,Arabica,1996,108360.0
+Rwanda,Arabica,1996,17580.0
+Zimbabwe,Arabica,1996,10440.0
+Congo,Robusta,1996,840.0
+Cuba,Arabica,1996,21960.0
+Dominican Republic,Mixed,1996,31140.0
+Haiti,Arabica,1996,25680.0
+Philippines,Mixed,1996,53400.0
+Tanzania,Mixed,1996,45840.0
+Zambia,Arabica,1996,1980.0
+Cameroon,Mixed,1996,85920.0
+Central African Republic,Robusta,1996,12480.0
+Colombia,Arabica,1996,646740.0
+Costa Rica,Arabica,1996,133320.0
+Côte d'Ivoire,Robusta,1996,291540.0
+Democratic Republic of Congo,Mixed,1996,47700.0
+El Salvador,Arabica,1996,152040.0
+Equatorial Guinea,Robusta,1996,60.0
+Ethiopia,Arabica,1996,204420.0
+Gabon,Robusta,1996,60.0
+Ghana,Robusta,1996,1920.0
+Guatemala,Mixed,1996,271500.0
+Guinea,Robusta,1996,8880.0
+Honduras,Arabica,1996,120240.0
+India,Mixed,1996,205020.0
+Jamaica,Arabica,1996,3240.0
+Kenya,Arabica,1996,74820.0
+Liberia,Robusta,1996,300.0
+Mexico,Mixed,1996,306600.0
+Nicaragua,Arabica,1996,47580.0
+Nigeria,Robusta,1996,2760.0
+Panama,Arabica,1996,12660.0
+Sierra Leone,Robusta,1996,2460.0
+Sri Lanka,Mixed,1996,2220.0
+Thailand,Mixed,1996,84240.0
+Togo,Robusta,1996,17460.0
+Trinidad & Tobago,Robusta,1996,1080.0
+Uganda,Mixed,1996,205140.0
+Venezuela,Arabica,1996,72360.0
+Viet Nam,Mixed,1996,345120.0
+Angola,Mixed,1997,3840.0
+Bolivia (Plurinational State of),Arabica,1997,8460.0
+Brazil,Mixed,1997,1568880.0
+Burundi,Mixed,1997,15000.0
+Ecuador,Mixed,1997,71460.0
+Indonesia,Mixed,1997,457260.0
+Madagascar,Robusta,1997,37440.0
+Malawi,Arabica,1997,3660.0
+Papua New Guinea,Mixed,1997,64440.0
+Paraguay,Arabica,1997,2940.0
+Peru,Arabica,1997,115800.0
+Rwanda,Arabica,1997,11580.0
+Zimbabwe,Arabica,1997,7800.0
+Congo,Robusta,1997,180.0
+Cuba,Arabica,1997,18000.0
+Dominican Republic,Mixed,1997,56460.0
+Haiti,Arabica,1997,25920.0
+Philippines,Mixed,1997,56100.0
+Tanzania,Mixed,1997,37440.0
+Zambia,Arabica,1997,2280.0
+Cameroon,Mixed,1997,53340.0
+Central African Republic,Robusta,1997,6840.0
+Colombia,Arabica,1997,727320.0
+Costa Rica,Arabica,1997,157020.0
+Côte d'Ivoire,Robusta,1997,249840.0
+Democratic Republic of Congo,Mixed,1997,48660.0
+El Salvador,Arabica,1997,130500.0
+Equatorial Guinea,Robusta,1997,120.0
+Ethiopia,Arabica,1997,183420.0
+Gabon,Robusta,1997,180.0
+Ghana,Robusta,1997,1620.0
+Guatemala,Mixed,1997,253140.0
+Guinea,Robusta,1997,10320.0
+Honduras,Arabica,1997,153840.0
+India,Mixed,1997,246540.0
+Jamaica,Arabica,1997,2820.0
+Kenya,Arabica,1997,52920.0
+Liberia,Robusta,1997,300.0
+Mexico,Mixed,1997,288120.0
+Nicaragua,Arabica,1997,65040.0
+Nigeria,Robusta,1997,2700.0
+Panama,Arabica,1997,13020.0
+Sierra Leone,Robusta,1997,3000.0
+Sri Lanka,Mixed,1997,3480.0
+Thailand,Mixed,1997,77580.0
+Togo,Robusta,1997,13260.0
+Trinidad & Tobago,Robusta,1997,1140.0
+Uganda,Mixed,1997,206400.0
+Venezuela,Arabica,1997,57060.0
+Viet Nam,Mixed,1997,418740.0
+Angola,Mixed,1998,5100.0
+Bolivia (Plurinational State of),Arabica,1998,8280.0
+Brazil,Mixed,1998,2205660.0
+Burundi,Mixed,1998,29520.0
+Ecuador,Mixed,1998,72360.0
+Indonesia,Mixed,1998,437760.0
+Madagascar,Robusta,1998,59520.0
+Malawi,Arabica,1998,3840.0
+Papua New Guinea,Mixed,1998,81120.0
+Paraguay,Arabica,1998,1920.0
+Peru,Arabica,1998,126120.0
+Rwanda,Arabica,1998,13380.0
+Zimbabwe,Arabica,1998,8940.0
+Congo,Robusta,1998,180.0
+Cuba,Arabica,1998,16800.0
+Dominican Republic,Mixed,1998,29220.0
+Haiti,Arabica,1998,26340.0
+Philippines,Mixed,1998,40620.0
+Tanzania,Mixed,1998,44340.0
+Zambia,Arabica,1998,3720.0
+Cameroon,Mixed,1998,66840.0
+Central African Republic,Robusta,1998,12900.0
+Colombia,Arabica,1998,652080.0
+Costa Rica,Arabica,1998,146700.0
+Côte d'Ivoire,Robusta,1998,119520.0
+Democratic Republic of Congo,Mixed,1998,44280.0
+El Salvador,Arabica,1998,123300.0
+Equatorial Guinea,Robusta,1998,60.0
+Ethiopia,Arabica,1998,175680.0
+Gabon,Robusta,1998,240.0
+Ghana,Robusta,1998,3240.0
+Guatemala,Mixed,1998,293580.0
+Guinea,Robusta,1998,25260.0
+Guyana,Robusta,1998,360.0
+Honduras,Arabica,1998,131700.0
+India,Mixed,1998,265020.0
+Jamaica,Arabica,1998,1740.0
+Kenya,Arabica,1998,70380.0
+Lao People's Democratic Republic,Robusta,1998,10260.0
+Liberia,Robusta,1998,1080.0
+Mexico,Mixed,1998,288060.0
+Nicaragua,Arabica,1998,64380.0
+Nigeria,Robusta,1998,3180.0
+Panama,Arabica,1998,11520.0
+Sierra Leone,Robusta,1998,1620.0
+Sri Lanka,Mixed,1998,2760.0
+Thailand,Mixed,1998,54960.0
+Togo,Robusta,1998,19260.0
+Trinidad & Tobago,Robusta,1998,1020.0
+Uganda,Mixed,1998,203160.0
+Venezuela,Arabica,1998,95820.0
+Viet Nam,Mixed,1998,423120.0
+Yemen,Arabica,1998,4140.0
+Angola,Mixed,1999,3300.0
+Bolivia (Plurinational State of),Arabica,1999,9480.0
+Brazil,Mixed,1999,2854680.0
+Burundi,Mixed,1999,21060.0
+Ecuador,Mixed,1999,71880.0
+Indonesia,Mixed,1999,393420.0
+Madagascar,Robusta,1999,25620.0
+Malawi,Arabica,1999,3540.0
+Papua New Guinea,Mixed,1999,83220.0
+Paraguay,Arabica,1999,1140.0
+Peru,Arabica,1999,164640.0
+Rwanda,Arabica,1999,18420.0
+Zimbabwe,Arabica,1999,7500.0
+Congo,Robusta,1999,180.0
+Cuba,Arabica,1999,19680.0
+Dominican Republic,Mixed,1999,36420.0
+Haiti,Arabica,1999,23940.0
+Philippines,Mixed,1999,37320.0
+Tanzania,Mixed,1999,50520.0
+Zambia,Arabica,1999,3540.0
+Cameroon,Mixed,1999,82200.0
+Central African Republic,Robusta,1999,14460.0
+Colombia,Arabica,1999,570720.0
+Costa Rica,Arabica,1999,149100.0
+Côte d'Ivoire,Robusta,1999,379200.0
+Democratic Republic of Congo,Mixed,1999,28620.0
+El Salvador,Arabica,1999,155880.0
+Ethiopia,Arabica,1999,227040.0
+Gabon,Robusta,1999,120.0
+Ghana,Robusta,1999,5340.0
+Guatemala,Mixed,1999,307200.0
+Guinea,Robusta,1999,21840.0
+Guyana,Robusta,1999,300.0
+Honduras,Arabica,1999,179100.0
+India,Mixed,1999,292020.0
+Jamaica,Arabica,1999,2280.0
+Kenya,Arabica,1999,90120.0
+Lao People's Democratic Republic,Robusta,1999,14340.0
+Liberia,Robusta,1999,720.0
+Mexico,Mixed,1999,373140.0
+Nicaragua,Arabica,1999,93240.0
+Nigeria,Robusta,1999,2700.0
+Panama,Arabica,1999,9960.0
+Sierra Leone,Robusta,1999,3540.0
+Sri Lanka,Mixed,1999,1920.0
+Thailand,Mixed,1999,76380.0
+Togo,Robusta,1999,15780.0
+Trinidad & Tobago,Robusta,1999,1020.0
+Uganda,Mixed,1999,171720.0
+Venezuela,Arabica,1999,82020.0
+Viet Nam,Mixed,1999,697860.0
+Yemen,Arabica,1999,3660.0
+Angola,Mixed,2000,3000.0
+Bolivia (Plurinational State of),Arabica,2000,8880.0
+Brazil,Mixed,2000,1878600.0
+Burundi,Mixed,2000,29220.0
+Ecuador,Mixed,2000,51240.0
+Indonesia,Mixed,2000,419220.0
+Madagascar,Robusta,2000,21720.0
+Malawi,Arabica,2000,3780.0
+Papua New Guinea,Mixed,2000,62460.0
+Paraguay,Arabica,2000,1320.0
+Peru,Arabica,2000,160560.0
+Rwanda,Arabica,2000,16380.0
+Timor-Leste,Arabica,2000,420.0
+Zimbabwe,Arabica,2000,6540.0
+Congo,Robusta,2000,180.0
+Cuba,Arabica,2000,18720.0
+Dominican Republic,Mixed,2000,28020.0
+Haiti,Arabica,2000,25200.0
+Philippines,Mixed,2000,20460.0
+Tanzania,Mixed,2000,48540.0
+Zambia,Arabica,2000,5580.0
+Cameroon,Mixed,2000,66780.0
+Central African Republic,Robusta,2000,6780.0
+Colombia,Arabica,2000,631140.0
+Costa Rica,Arabica,2000,145140.0
+Côte d'Ivoire,Robusta,2000,290760.0
+Democratic Republic of Congo,Mixed,2000,21780.0
+El Salvador,Arabica,2000,102240.0
+Ethiopia,Arabica,2000,186900.0
+Ghana,Robusta,2000,4560.0
+Guatemala,Mixed,2000,296400.0
+Guinea,Robusta,2000,24000.0
+Guyana,Robusta,2000,180.0
+Honduras,Arabica,2000,160020.0
+India,Mixed,2000,301200.0
+Jamaica,Arabica,2000,2220.0
+Kenya,Arabica,2000,60120.0
+Lao People's Democratic Republic,Robusta,2000,12720.0
+Liberia,Robusta,2000,720.0
+Mexico,Mixed,2000,288900.0
+Nicaragua,Arabica,2000,94320.0
+Nigeria,Robusta,2000,2940.0
+Panama,Arabica,2000,10200.0
+Sierra Leone,Robusta,2000,2940.0
+Sri Lanka,Mixed,2000,1980.0
+Thailand,Mixed,2000,101520.0
+Togo,Robusta,2000,11820.0
+Trinidad & Tobago,Robusta,2000,960.0
+Uganda,Mixed,2000,204060.0
+Venezuela,Arabica,2000,87000.0
+Viet Nam,Mixed,2000,890460.0
+Yemen,Arabica,2000,3840.0
+Angola,Mixed,2001,1260.0
+Bolivia (Plurinational State of),Arabica,2001,5640.0
+Brazil,Mixed,2001,1881900.0
+Burundi,Mixed,2001,8640.0
+Ecuador,Mixed,2001,47580.0
+Indonesia,Mixed,2001,409980.0
+Madagascar,Robusta,2001,8820.0
+Malawi,Arabica,2001,3600.0
+Papua New Guinea,Mixed,2001,63780.0
+Paraguay,Arabica,2001,1320.0
+Peru,Arabica,2001,169740.0
+Rwanda,Arabica,2001,17760.0
+Timor-Leste,Arabica,2001,1980.0
+Zimbabwe,Arabica,2001,7260.0
+Congo,Robusta,2001,180.0
+Cuba,Arabica,2001,17100.0
+Dominican Republic,Mixed,2001,23220.0
+Haiti,Arabica,2001,24180.0
+Philippines,Mixed,2001,15780.0
+Tanzania,Mixed,2001,37440.0
+Zambia,Arabica,2001,6000.0
+Cameroon,Mixed,2001,41160.0
+Central African Republic,Robusta,2001,4080.0
+Colombia,Arabica,2001,717000.0
+Costa Rica,Arabica,2001,134820.0
+Côte d'Ivoire,Robusta,2001,215760.0
+Democratic Republic of Congo,Mixed,2001,25380.0
+El Salvador,Arabica,2001,101640.0
+Ethiopia,Arabica,2001,242640.0
+Gabon,Robusta,2001,60.0
+Ghana,Robusta,2001,420.0
+Guatemala,Mixed,2001,220140.0
+Guinea,Robusta,2001,14160.0
+Guyana,Robusta,2001,300.0
+Honduras,Arabica,2001,182160.0
+India,Mixed,2001,288600.0
+Jamaica,Arabica,2001,1860.0
+Kenya,Arabica,2001,59460.0
+Lao People's Democratic Republic,Robusta,2001,15480.0
+Liberia,Robusta,2001,720.0
+Mexico,Mixed,2001,266280.0
+Nicaragua,Arabica,2001,64740.0
+Nigeria,Robusta,2001,2640.0
+Panama,Arabica,2001,9600.0
+Sierra Leone,Robusta,2001,4740.0
+Sri Lanka,Mixed,2001,1920.0
+Thailand,Mixed,2001,42840.0
+Togo,Robusta,2001,6720.0
+Trinidad & Tobago,Robusta,2001,960.0
+Uganda,Mixed,2001,189480.0
+Venezuela,Arabica,2001,75900.0
+Viet Nam,Mixed,2001,785580.0
+Yemen,Arabica,2001,3720.0
+Angola,Mixed,2002,3420.0
+Bolivia (Plurinational State of),Arabica,2002,7620.0
+Brazil,Mixed,2002,2901120.0
+Burundi,Mixed,2002,27240.0
+Ecuador,Mixed,2002,34920.0
+Indonesia,Mixed,2002,403860.0
+Madagascar,Robusta,2002,26700.0
+Malawi,Arabica,2002,2520.0
+Papua New Guinea,Mixed,2002,65100.0
+Paraguay,Arabica,2002,2160.0
+Peru,Arabica,2002,180000.0
+Rwanda,Arabica,2002,19200.0
+Timor-Leste,Arabica,2002,2220.0
+Zimbabwe,Arabica,2002,6600.0
+Congo,Robusta,2002,180.0
+Cuba,Arabica,2002,14340.0
+Dominican Republic,Mixed,2002,27300.0
+Haiti,Arabica,2002,22440.0
+Philippines,Mixed,2002,15300.0
+Tanzania,Mixed,2002,49440.0
+Zambia,Arabica,2002,7140.0
+Cameroon,Mixed,2002,48060.0
+Central African Republic,Robusta,2002,5520.0
+Colombia,Arabica,2002,702720.0
+Costa Rica,Arabica,2002,122580.0
+Côte d'Ivoire,Robusta,2002,180600.0
+Democratic Republic of Congo,Mixed,2002,20280.0
+El Salvador,Arabica,2002,81660.0
+Ethiopia,Arabica,2002,245640.0
+Gabon,Robusta,2002,60.0
+Ghana,Robusta,2002,2040.0
+Guatemala,Mixed,2002,244200.0
+Guinea,Robusta,2002,19680.0
+Guyana,Robusta,2002,300.0
+Honduras,Arabica,2002,149760.0
+India,Mixed,2002,275280.0
+Jamaica,Arabica,2002,2220.0
+Kenya,Arabica,2002,56700.0
+Lao People's Democratic Republic,Robusta,2002,24120.0
+Liberia,Robusta,2002,720.0
+Mexico,Mixed,2002,261060.0
+Nicaragua,Arabica,2002,70200.0
+Nigeria,Robusta,2002,3000.0
+Panama,Arabica,2002,8400.0
+Sierra Leone,Robusta,2002,2520.0
+Sri Lanka,Mixed,2002,2040.0
+Thailand,Mixed,2002,43920.0
+Togo,Robusta,2002,4080.0
+Trinidad & Tobago,Robusta,2002,1020.0
+Uganda,Mixed,2002,173400.0
+Venezuela,Arabica,2002,89040.0
+Viet Nam,Mixed,2002,694440.0
+Yemen,Arabica,2002,3420.0
+Angola,Mixed,2003,2280.0
+Bolivia (Plurinational State of),Arabica,2003,6180.0
+Brazil,Mixed,2003,1732380.0
+Burundi,Mixed,2003,20280.0
+Ecuador,Mixed,2003,38460.0
+Indonesia,Mixed,2003,384240.0
+Madagascar,Robusta,2003,26100.0
+Malawi,Arabica,2003,2880.0
+Papua New Guinea,Mixed,2003,69300.0
+Paraguay,Arabica,2003,2820.0
+Peru,Arabica,2003,161160.0
+Rwanda,Arabica,2003,15960.0
+Timor-Leste,Arabica,2003,2520.0
+Zimbabwe,Arabica,2003,5520.0
+Congo,Robusta,2003,180.0
+Cuba,Arabica,2003,13440.0
+Dominican Republic,Mixed,2003,21060.0
+Haiti,Arabica,2003,22440.0
+Philippines,Mixed,2003,17580.0
+Tanzania,Mixed,2003,36720.0
+Zambia,Arabica,2003,6000.0
+Cameroon,Mixed,2003,54000.0
+Central African Republic,Robusta,2003,2580.0
+Colombia,Arabica,2003,663180.0
+Costa Rica,Arabica,2003,113160.0
+Côte d'Ivoire,Robusta,2003,178860.0
+Democratic Republic of Congo,Mixed,2003,27060.0
+El Salvador,Arabica,2003,82800.0
+Ethiopia,Arabica,2003,263640.0
+Ghana,Robusta,2003,1080.0
+Guatemala,Mixed,2003,216600.0
+Guinea,Robusta,2003,21960.0
+Guyana,Robusta,2003,300.0
+Honduras,Arabica,2003,178080.0
+India,Mixed,2003,282480.0
+Jamaica,Arabica,2003,2220.0
+Kenya,Arabica,2003,40380.0
+Lao People's Democratic Republic,Robusta,2003,21660.0
+Liberia,Robusta,2003,300.0
+Mexico,Mixed,2003,252060.0
+Nepal,Arabica,2003,60.0
+Nicaragua,Arabica,2003,90540.0
+Nigeria,Robusta,2003,2760.0
+Panama,Arabica,2003,10320.0
+Sierra Leone,Robusta,2003,2160.0
+Sri Lanka,Mixed,2003,2220.0
+Thailand,Mixed,2003,49620.0
+Togo,Robusta,2003,8640.0
+Trinidad & Tobago,Robusta,2003,960.0
+Uganda,Mixed,2003,155940.0
+Venezuela,Arabica,2003,85260.0
+Viet Nam,Mixed,2003,920220.0
+Yemen,Arabica,2003,11580.0
+Angola,Mixed,2004,900.0
+Bolivia (Plurinational State of),Arabica,2004,9300.0
+Brazil,Mixed,2004,2356860.0
+Burundi,Mixed,2004,26220.0
+Ecuador,Mixed,2004,46800.0
+Indonesia,Mixed,2004,452160.0
+Madagascar,Robusta,2004,31320.0
+Malawi,Arabica,2004,1260.0
+Papua New Guinea,Mixed,2004,59880.0
+Paraguay,Arabica,2004,2280.0
+Peru,Arabica,2004,205500.0
+Rwanda,Arabica,2004,27000.0
+Timor-Leste,Arabica,2004,1020.0
+Zimbabwe,Arabica,2004,7200.0
+Congo,Robusta,2004,180.0
+Cuba,Arabica,2004,10800.0
+Dominican Republic,Mixed,2004,29460.0
+Haiti,Arabica,2004,21900.0
+Philippines,Mixed,2004,21300.0
+Tanzania,Mixed,2004,45780.0
+Zambia,Arabica,2004,6600.0
+Cameroon,Mixed,2004,43620.0
+Central African Republic,Robusta,2004,1740.0
+Colombia,Arabica,2004,685740.0
+Costa Rica,Arabica,2004,112560.0
+Côte d'Ivoire,Robusta,2004,128160.0
+Democratic Republic of Congo,Mixed,2004,21600.0
+El Salvador,Arabica,2004,71820.0
+Ethiopia,Arabica,2004,312780.0
+Ghana,Robusta,2004,1080.0
+Guatemala,Mixed,2004,222180.0
+Guinea,Robusta,2004,18960.0
+Guyana,Robusta,2004,360.0
+Honduras,Arabica,2004,154500.0
+India,Mixed,2004,275460.0
+Jamaica,Arabica,2004,1260.0
+Kenya,Arabica,2004,44160.0
+Lao People's Democratic Republic,Robusta,2004,22740.0
+Liberia,Robusta,2004,360.0
+Mexico,Mixed,2004,232020.0
+Nepal,Arabica,2004,60.0
+Nicaragua,Arabica,2004,64080.0
+Nigeria,Robusta,2004,2700.0
+Panama,Arabica,2004,5400.0
+Sierra Leone,Robusta,2004,900.0
+Sri Lanka,Mixed,2004,1920.0
+Thailand,Mixed,2004,53040.0
+Togo,Robusta,2004,9960.0
+Trinidad & Tobago,Robusta,2004,900.0
+Uganda,Mixed,2004,156780.0
+Venezuela,Arabica,2004,79620.0
+Viet Nam,Mixed,2004,862200.0
+Yemen,Arabica,2004,12360.0
+Angola,Mixed,2005,1500.0
+Bolivia (Plurinational State of),Arabica,2005,6600.0
+Brazil,Mixed,2005,1975980.0
+Burundi,Mixed,2005,6180.0
+Ecuador,Mixed,2005,56100.0
+Indonesia,Mixed,2005,549540.0
+Madagascar,Robusta,2005,35940.0
+Malawi,Arabica,2005,1440.0
+Papua New Guinea,Mixed,2005,76080.0
+Paraguay,Arabica,2005,2640.0
+Peru,Arabica,2005,149340.0
+Rwanda,Arabica,2005,20220.0
+Timor-Leste,Arabica,2005,1440.0
+Zimbabwe,Arabica,2005,3960.0
+Congo,Robusta,2005,180.0
+Cuba,Arabica,2005,6000.0
+Dominican Republic,Mixed,2005,18600.0
+Haiti,Arabica,2005,21360.0
+Philippines,Mixed,2005,25920.0
+Tanzania,Mixed,2005,48240.0
+Zambia,Arabica,2005,6180.0
+Cameroon,Mixed,2005,52200.0
+Central African Republic,Robusta,2005,1380.0
+Colombia,Arabica,2005,717120.0
+Costa Rica,Arabica,2005,99180.0
+Côte d'Ivoire,Robusta,2005,125940.0
+Democratic Republic of Congo,Mixed,2005,20160.0
+El Salvador,Arabica,2005,79140.0
+Ethiopia,Arabica,2005,286740.0
+Gabon,Robusta,2005,60.0
+Ghana,Robusta,2005,720.0
+Guatemala,Mixed,2005,220560.0
+Guinea,Robusta,2005,31500.0
+Guyana,Robusta,2005,420.0
+Honduras,Arabica,2005,192240.0
+India,Mixed,2005,273960.0
+Jamaica,Arabica,2005,2040.0
+Kenya,Arabica,2005,39600.0
+Lao People's Democratic Republic,Robusta,2005,16800.0
+Liberia,Robusta,2005,300.0
+Mexico,Mixed,2005,253500.0
+Nepal,Arabica,2005,60.0
+Nicaragua,Arabica,2005,85920.0
+Nigeria,Robusta,2005,4140.0
+Panama,Arabica,2005,10560.0
+Sierra Leone,Robusta,2005,3600.0
+Sri Lanka,Mixed,2005,2100.0
+Thailand,Mixed,2005,63840.0
+Togo,Robusta,2005,8400.0
+Trinidad & Tobago,Robusta,2005,900.0
+Uganda,Mixed,2005,130500.0
+Venezuela,Arabica,2005,90360.0
+Viet Nam,Mixed,2005,830520.0
+Yemen,Arabica,2005,12180.0
+Angola,Mixed,2006,2100.0
+Bolivia (Plurinational State of),Arabica,2006,8760.0
+Brazil,Mixed,2006,2905920.0
+Burundi,Mixed,2006,29880.0
+Ecuador,Mixed,2006,62100.0
+Indonesia,Mixed,2006,448980.0
+Madagascar,Robusta,2006,35220.0
+Malawi,Arabica,2006,1020.0
+Papua New Guinea,Mixed,2006,48420.0
+Paraguay,Arabica,2006,2100.0
+Peru,Arabica,2006,259140.0
+Rwanda,Arabica,2006,21060.0
+Timor-Leste,Arabica,2006,2760.0
+Zimbabwe,Arabica,2006,2700.0
+Congo,Robusta,2006,180.0
+Cuba,Arabica,2006,6300.0
+Dominican Republic,Mixed,2006,23220.0
+Haiti,Arabica,2006,21720.0
+Philippines,Mixed,2006,26460.0
+Tanzania,Mixed,2006,49320.0
+Zambia,Arabica,2006,3360.0
+Cameroon,Mixed,2006,49080.0
+Central African Republic,Robusta,2006,6840.0
+Colombia,Arabica,2006,729840.0
+Costa Rica,Arabica,2006,102360.0
+Côte d'Ivoire,Robusta,2006,170880.0
+Democratic Republic of Congo,Mixed,2006,22680.0
+El Salvador,Arabica,2006,74040.0
+Ethiopia,Arabica,2006,333060.0
+Gabon,Robusta,2006,60.0
+Ghana,Robusta,2006,1200.0
+Guatemala,Mixed,2006,237000.0
+Guinea,Robusta,2006,28380.0
+Guyana,Robusta,2006,480.0
+Honduras,Arabica,2006,207660.0
+India,Mixed,2006,270000.0
+Jamaica,Arabica,2006,2400.0
+Kenya,Arabica,2006,49560.0
+Lao People's Democratic Republic,Robusta,2006,23460.0
+Liberia,Robusta,2006,420.0
+Mexico,Mixed,2006,252000.0
+Nepal,Arabica,2006,120.0
+Nicaragua,Arabica,2006,85680.0
+Nigeria,Robusta,2006,3060.0
+Panama,Arabica,2006,10380.0
+Sierra Leone,Robusta,2006,1860.0
+Sri Lanka,Mixed,2006,1980.0
+Thailand,Mixed,2006,49320.0
+Togo,Robusta,2006,8040.0
+Trinidad & Tobago,Robusta,2006,720.0
+Uganda,Mixed,2006,173640.0
+Venezuela,Arabica,2006,94260.0
+Viet Nam,Mixed,2006,1160400.0
+Yemen,Arabica,2006,12420.0
+Angola,Mixed,2007,2160.0
+Bolivia (Plurinational State of),Arabica,2007,6960.0
+Brazil,Mixed,2007,2334660.0
+Burundi,Mixed,2007,7980.0
+Ecuador,Mixed,2007,57000.0
+Indonesia,Mixed,2007,466620.0
+Madagascar,Robusta,2007,36840.0
+Malawi,Arabica,2007,1140.0
+Papua New Guinea,Mixed,2007,58080.0
+Paraguay,Arabica,2007,2340.0
+Peru,Arabica,2007,183780.0
+Rwanda,Arabica,2007,13440.0
+Timor-Leste,Arabica,2007,2160.0
+Zimbabwe,Arabica,2007,1860.0
+Congo,Robusta,2007,180.0
+Cuba,Arabica,2007,6600.0
+Dominican Republic,Mixed,2007,27900.0
+Haiti,Arabica,2007,21540.0
+Philippines,Mixed,2007,26760.0
+Tanzania,Mixed,2007,48600.0
+Zambia,Arabica,2007,3660.0
+Cameroon,Mixed,2007,47700.0
+Central African Republic,Robusta,2007,2580.0
+Colombia,Arabica,2007,750900.0
+Costa Rica,Arabica,2007,107820.0
+Côte d'Ivoire,Robusta,2007,80280.0
+Democratic Republic of Congo,Mixed,2007,24960.0
+El Salvador,Arabica,2007,90300.0
+Ethiopia,Arabica,2007,358020.0
+Gabon,Robusta,2007,60.0
+Ghana,Robusta,2007,2100.0
+Guatemala,Mixed,2007,246000.0
+Guinea,Robusta,2007,19380.0
+Guyana,Robusta,2007,540.0
+Honduras,Arabica,2007,218400.0
+India,Mixed,2007,262020.0
+Jamaica,Arabica,2007,1200.0
+Kenya,Arabica,2007,39120.0
+Lao People's Democratic Republic,Robusta,2007,23580.0
+Liberia,Robusta,2007,420.0
+Mexico,Mixed,2007,249000.0
+Nepal,Arabica,2007,60.0
+Nicaragua,Arabica,2007,114360.0
+Nigeria,Robusta,2007,2520.0
+Panama,Arabica,2007,10560.0
+Sierra Leone,Robusta,2007,2400.0
+Sri Lanka,Mixed,2007,1980.0
+Thailand,Mixed,2007,39000.0
+Togo,Robusta,2007,7500.0
+Trinidad & Tobago,Robusta,2007,720.0
+Uganda,Mixed,2007,209400.0
+Venezuela,Arabica,2007,91200.0
+Viet Nam,Mixed,2007,984300.0
+Yemen,Arabica,2007,11880.0
+Angola,Mixed,2008,2280.0
+Bolivia (Plurinational State of),Arabica,2008,7200.0
+Brazil,Mixed,2008,3089460.0
+Burundi,Mixed,2008,24720.0
+Ecuador,Mixed,2008,46260.0
+Indonesia,Mixed,2008,576720.0
+Madagascar,Robusta,2008,43680.0
+Malawi,Arabica,2008,1260.0
+Papua New Guinea,Mixed,2008,61680.0
+Paraguay,Arabica,2008,1200.0
+Peru,Arabica,2008,232320.0
+Rwanda,Arabica,2008,22140.0
+Timor-Leste,Arabica,2008,2880.0
+Zimbabwe,Arabica,2008,1440.0
+Congo,Robusta,2008,180.0
+Cuba,Arabica,2008,7980.0
+Dominican Republic,Mixed,2008,38700.0
+Haiti,Arabica,2008,21540.0
+Philippines,Mixed,2008,35220.0
+Tanzania,Mixed,2008,71160.0
+Zambia,Arabica,2008,2100.0
+Cameroon,Mixed,2008,43500.0
+Central African Republic,Robusta,2008,3600.0
+Colombia,Arabica,2008,519840.0
+Costa Rica,Arabica,2008,90000.0
+Côte d'Ivoire,Robusta,2008,151560.0
+Democratic Republic of Congo,Mixed,2008,25320.0
+El Salvador,Arabica,2008,87000.0
+Ethiopia,Arabica,2008,296940.0
+Gabon,Robusta,2008,120.0
+Ghana,Robusta,2008,1560.0
+Guatemala,Mixed,2008,227100.0
+Guinea,Robusta,2008,30300.0
+Guyana,Robusta,2008,600.0
+Honduras,Arabica,2008,207000.0
+India,Mixed,2008,244320.0
+Jamaica,Arabica,2008,1920.0
+Kenya,Arabica,2008,32460.0
+Lao People's Democratic Republic,Robusta,2008,24360.0
+Liberia,Robusta,2008,720.0
+Mexico,Mixed,2008,279060.0
+Nepal,Arabica,2008,60.0
+Nicaragua,Arabica,2008,86700.0
+Nigeria,Robusta,2008,3000.0
+Panama,Arabica,2008,8940.0
+Sierra Leone,Robusta,2008,5160.0
+Sri Lanka,Mixed,2008,1860.0
+Thailand,Mixed,2008,40500.0
+Togo,Robusta,2008,8280.0
+Trinidad & Tobago,Robusta,2008,660.0
+Uganda,Mixed,2008,200100.0
+Venezuela,Arabica,2008,55920.0
+Viet Nam,Mixed,2008,1106280.0
+Yemen,Arabica,2008,13200.0
+Angola,Mixed,2009,780.0
+Bolivia (Plurinational State of),Arabica,2009,7680.0
+Brazil,Mixed,2009,2638620.0
+Burundi,Mixed,2009,6720.0
+Ecuador,Mixed,2009,48780.0
+Indonesia,Mixed,2009,682800.0
+Madagascar,Robusta,2009,27420.0
+Malawi,Arabica,2009,1020.0
+Papua New Guinea,Mixed,2009,62280.0
+Paraguay,Arabica,2009,1200.0
+Peru,Arabica,2009,197160.0
+Rwanda,Arabica,2009,15540.0
+Timor-Leste,Arabica,2009,2820.0
+Zimbabwe,Arabica,2009,1260.0
+Congo,Robusta,2009,180.0
+Cuba,Arabica,2009,5520.0
+Dominican Republic,Mixed,2009,21120.0
+Haiti,Arabica,2009,21060.0
+Philippines,Mixed,2009,43800.0
+Tanzania,Mixed,2009,40500.0
+Zambia,Arabica,2009,1680.0
+Cameroon,Mixed,2009,54120.0
+Central African Republic,Robusta,2009,6720.0
+Colombia,Arabica,2009,485880.0
+Costa Rica,Arabica,2009,88620.0
+Côte d'Ivoire,Robusta,2009,119340.0
+Democratic Republic of Congo,Mixed,2009,20760.0
+El Salvador,Arabica,2009,64500.0
+Ethiopia,Arabica,2009,409800.0
+Ghana,Robusta,2009,1140.0
+Guatemala,Mixed,2009,230100.0
+Guinea,Robusta,2009,29940.0
+Guyana,Robusta,2009,540.0
+Honduras,Arabica,2009,216180.0
+India,Mixed,2009,289620.0
+Jamaica,Arabica,2009,1500.0
+Kenya,Arabica,2009,37800.0
+Lao People's Democratic Republic,Robusta,2009,26040.0
+Liberia,Robusta,2009,780.0
+Mexico,Mixed,2009,246540.0
+Nepal,Arabica,2009,60.0
+Nicaragua,Arabica,2009,112260.0
+Nigeria,Robusta,2009,2040.0
+Panama,Arabica,2009,8280.0
+Sierra Leone,Robusta,2009,5460.0
+Sri Lanka,Mixed,2009,1920.0
+Thailand,Mixed,2009,47700.0
+Togo,Robusta,2009,12120.0
+Trinidad & Tobago,Robusta,2009,660.0
+Uganda,Mixed,2009,173640.0
+Venezuela,Arabica,2009,72840.0
+Viet Nam,Mixed,2009,1069500.0
+Yemen,Arabica,2009,8100.0
+Angola,Mixed,2010,2100.0
+Bolivia (Plurinational State of),Arabica,2010,7020.0
+Brazil,Mixed,2010,3325680.0
+Burundi,Mixed,2010,21180.0
+Ecuador,Mixed,2010,51240.0
+Indonesia,Mixed,2010,547740.0
+Madagascar,Robusta,2010,31800.0
+Malawi,Arabica,2010,1020.0
+Papua New Guinea,Mixed,2010,52020.0
+Paraguay,Arabica,2010,1200.0
+Peru,Arabica,2010,244140.0
+Rwanda,Arabica,2010,19380.0
+Timor-Leste,Arabica,2010,3600.0
+Zimbabwe,Arabica,2010,600.0
+Congo,Robusta,2010,180.0
+Cuba,Arabica,2010,6480.0
+Dominican Republic,Mixed,2010,22680.0
+Haiti,Arabica,2010,21000.0
+Philippines,Mixed,2010,11340.0
+Tanzania,Mixed,2010,50760.0
+Zambia,Arabica,2010,780.0
+Cameroon,Mixed,2010,31620.0
+Central African Republic,Robusta,2010,4680.0
+Colombia,Arabica,2010,511380.0
+Costa Rica,Arabica,2010,96840.0
+Côte d'Ivoire,Robusta,2010,50220.0
+Democratic Republic of Congo,Mixed,2010,18300.0
+El Salvador,Arabica,2010,112380.0
+Ethiopia,Arabica,2010,333600.0
+Gabon,Robusta,2010,120.0
+Ghana,Robusta,2010,4140.0
+Guatemala,Mixed,2010,237000.0
+Guinea,Robusta,2010,23160.0
+Guyana,Robusta,2010,540.0
+Honduras,Arabica,2010,259860.0
+India,Mixed,2010,336000.0
+Jamaica,Arabica,2010,1260.0
+Kenya,Arabica,2010,38460.0
+Lao People's Democratic Republic,Robusta,2010,32640.0
+Liberia,Robusta,2010,600.0
+Mexico,Mixed,2010,240060.0
+Nepal,Arabica,2010,180.0
+Nicaragua,Arabica,2010,98280.0
+Nigeria,Robusta,2010,2520.0
+Panama,Arabica,2010,6840.0
+Sierra Leone,Robusta,2010,1980.0
+Sri Lanka,Mixed,2010,2220.0
+Thailand,Mixed,2010,49680.0
+Togo,Robusta,2010,9600.0
+Trinidad & Tobago,Robusta,2010,600.0
+Uganda,Mixed,2010,196020.0
+Venezuela,Arabica,2010,72120.0
+Viet Nam,Mixed,2010,1200000.0
+Yemen,Arabica,2010,9660.0
+Angola,Mixed,2011,1740.0
+Bolivia (Plurinational State of),Arabica,2011,7920.0
+Brazil,Mixed,2011,2915520.0
+Burundi,Mixed,2011,12240.0
+Ecuador,Mixed,2011,49500.0
+Indonesia,Mixed,2011,413340.0
+Madagascar,Robusta,2011,35100.0
+Malawi,Arabica,2011,1560.0
+Papua New Guinea,Mixed,2011,84840.0
+Paraguay,Arabica,2011,1200.0
+Peru,Arabica,2011,322380.0
+Rwanda,Arabica,2011,15060.0
+Timor-Leste,Arabica,2011,2820.0
+Zimbabwe,Arabica,2011,540.0
+Congo,Robusta,2011,180.0
+Cuba,Arabica,2011,6000.0
+Dominican Republic,Mixed,2011,29460.0
+Haiti,Arabica,2011,20940.0
+Philippines,Mixed,2011,10800.0
+Tanzania,Mixed,2011,38460.0
+Zambia,Arabica,2011,660.0
+Cameroon,Mixed,2011,40140.0
+Central African Republic,Robusta,2011,5460.0
+Colombia,Arabica,2011,459180.0
+Costa Rica,Arabica,2011,109860.0
+Côte d'Ivoire,Robusta,2011,132960.0
+Democratic Republic of Congo,Mixed,2011,21420.0
+El Salvador,Arabica,2011,69840.0
+Ethiopia,Arabica,2011,339000.0
+Gabon,Robusta,2011,60.0
+Ghana,Robusta,2011,1800.0
+Guatemala,Mixed,2011,231000.0
+Guinea,Robusta,2011,23160.0
+Guyana,Robusta,2011,600.0
+Honduras,Arabica,2011,352920.0
+India,Mixed,2011,320040.0
+Jamaica,Arabica,2011,1440.0
+Kenya,Arabica,2011,45420.0
+Lao People's Democratic Republic,Robusta,2011,30840.0
+Liberia,Robusta,2011,600.0
+Mexico,Mixed,2011,273660.0
+Nepal,Arabica,2011,120.0
+Nicaragua,Arabica,2011,131580.0
+Nigeria,Robusta,2011,2820.0
+Panama,Arabica,2011,6360.0
+Sierra Leone,Robusta,2011,4680.0
+Sri Lanka,Mixed,2011,2160.0
+Thailand,Mixed,2011,49860.0
+Togo,Robusta,2011,9600.0
+Trinidad & Tobago,Robusta,2011,660.0
+Uganda,Mixed,2011,186900.0
+Venezuela,Arabica,2011,54120.0
+Viet Nam,Mixed,2011,1590000.0
+Yemen,Arabica,2011,11100.0
+Angola,Mixed,2012,1980.0
+Bolivia (Plurinational State of),Arabica,2012,6300.0
+Brazil,Mixed,2012,3325080.0
+Burundi,Mixed,2012,24360.0
+Ecuador,Mixed,2012,49680.0
+Indonesia,Mixed,2012,784200.0
+Madagascar,Robusta,2012,30000.0
+Malawi,Arabica,2012,1380.0
+Papua New Guinea,Mixed,2012,42960.0
+Paraguay,Arabica,2012,1200.0
+Peru,Arabica,2012,267000.0
+Rwanda,Arabica,2012,15540.0
+Timor-Leste,Arabica,2012,3660.0
+Zimbabwe,Arabica,2012,420.0
+Congo,Robusta,2012,180.0
+Cuba,Arabica,2012,5280.0
+Dominican Republic,Mixed,2012,29280.0
+Haiti,Arabica,2012,21000.0
+Philippines,Mixed,2012,10620.0
+Tanzania,Mixed,2012,69060.0
+Zambia,Arabica,2012,300.0
+Cameroon,Mixed,2012,22260.0
+Central African Republic,Robusta,2012,1380.0
+Colombia,Arabica,2012,595620.0
+Costa Rica,Arabica,2012,109380.0
+Côte d'Ivoire,Robusta,2012,119640.0
+Democratic Republic of Congo,Mixed,2012,20040.0
+El Salvador,Arabica,2012,74400.0
+Ethiopia,Arabica,2012,367920.0
+Gabon,Robusta,2012,60.0
+Ghana,Robusta,2012,1260.0
+Guatemala,Mixed,2012,225780.0
+Guinea,Robusta,2012,14040.0
+Guyana,Robusta,2012,600.0
+Honduras,Arabica,2012,281160.0
+India,Mixed,2012,324180.0
+Jamaica,Arabica,2012,1440.0
+Kenya,Arabica,2012,52500.0
+Lao People's Democratic Republic,Robusta,2012,32460.0
+Liberia,Robusta,2012,600.0
+Mexico,Mixed,2012,259620.0
+Nepal,Arabica,2012,60.0
+Nicaragua,Arabica,2012,112380.0
+Nigeria,Robusta,2012,2460.0
+Panama,Arabica,2012,6960.0
+Sierra Leone,Robusta,2012,3660.0
+Sri Lanka,Mixed,2012,2100.0
+Thailand,Mixed,2012,36480.0
+Togo,Robusta,2012,5040.0
+Trinidad & Tobago,Robusta,2012,720.0
+Uganda,Mixed,2012,234840.0
+Venezuela,Arabica,2012,57120.0
+Viet Nam,Mixed,2012,1404120.0
+Yemen,Arabica,2012,11280.0
+Angola,Mixed,2013,2100.0
+Bolivia (Plurinational State of),Arabica,2013,7200.0
+Brazil,Mixed,2013,3281340.0
+Burundi,Mixed,2013,9780.0
+Ecuador,Mixed,2013,39960.0
+Indonesia,Mixed,2013,774060.0
+Madagascar,Robusta,2013,35040.0
+Malawi,Arabica,2013,1680.0
+Papua New Guinea,Mixed,2013,50100.0
+Paraguay,Arabica,2013,1200.0
+Peru,Arabica,2013,246360.0
+Rwanda,Arabica,2013,15480.0
+Timor-Leste,Arabica,2013,4800.0
+Zimbabwe,Arabica,2013,540.0
+Congo,Robusta,2013,180.0
+Cuba,Arabica,2013,6420.0
+Dominican Republic,Mixed,2013,25500.0
+Haiti,Arabica,2013,20700.0
+Philippines,Mixed,2013,11160.0
+Tanzania,Mixed,2013,48660.0
+Zambia,Arabica,2013,660.0
+Cameroon,Mixed,2013,24240.0
+Central African Republic,Robusta,2013,5400.0
+Colombia,Arabica,2013,727440.0
+Costa Rica,Arabica,2013,93120.0
+Côte d'Ivoire,Robusta,2013,155880.0
+Democratic Republic of Congo,Mixed,2013,20820.0
+El Salvador,Arabica,2013,30900.0
+Ethiopia,Arabica,2013,374520.0
+Ghana,Robusta,2013,1500.0
+Guatemala,Mixed,2013,191340.0
+Guinea,Robusta,2013,6060.0
+Guyana,Robusta,2013,780.0
+Honduras,Arabica,2013,274980.0
+India,Mixed,2013,304500.0
+Jamaica,Arabica,2013,1200.0
+Kenya,Arabica,2013,50580.0
+Lao People's Democratic Republic,Robusta,2013,32640.0
+Liberia,Robusta,2013,360.0
+Mexico,Mixed,2013,234960.0
+Nepal,Arabica,2013,60.0
+Nicaragua,Arabica,2013,123600.0
+Nigeria,Robusta,2013,2460.0
+Panama,Arabica,2013,6780.0
+Sierra Leone,Robusta,2013,1920.0
+Sri Lanka,Mixed,2013,2220.0
+Thailand,Mixed,2013,38280.0
+Togo,Robusta,2013,10320.0
+Trinidad & Tobago,Robusta,2013,720.0
+Uganda,Mixed,2013,217980.0
+Venezuela,Arabica,2013,48240.0
+Viet Nam,Mixed,2013,1656600.0
+Yemen,Arabica,2013,11220.0
+Angola,Mixed,2014,2340.0
+Bolivia (Plurinational State of),Arabica,2014,6000.0
+Brazil,Mixed,2014,3198300.0
+Burundi,Mixed,2014,14880.0
+Ecuador,Mixed,2014,38640.0
+Indonesia,Mixed,2014,656760.0
+Madagascar,Robusta,2014,30060.0
+Malawi,Arabica,2014,1500.0
+Papua New Guinea,Mixed,2014,47880.0
+Paraguay,Arabica,2014,1200.0
+Peru,Arabica,2014,172980.0
+Rwanda,Arabica,2014,14280.0
+Timor-Leste,Arabica,2014,6660.0
+Zimbabwe,Arabica,2014,900.0
+Congo,Robusta,2014,180.0
+Cuba,Arabica,2014,6060.0
+Dominican Republic,Mixed,2014,23820.0
+Haiti,Arabica,2014,20580.0
+Philippines,Mixed,2014,11580.0
+Tanzania,Mixed,2014,45180.0
+Zambia,Arabica,2014,180.0
+Cameroon,Mixed,2014,28980.0
+Central African Republic,Robusta,2014,3780.0
+Colombia,Arabica,2014,799980.0
+Costa Rica,Arabica,2014,88500.0
+Côte d'Ivoire,Robusta,2014,103680.0
+Democratic Republic of Congo,Mixed,2014,20100.0
+El Salvador,Arabica,2014,39900.0
+Ethiopia,Arabica,2014,382980.0
+Gabon,Robusta,2014,60.0
+Ghana,Robusta,2014,2100.0
+Guatemala,Mixed,2014,198600.0
+Guinea,Robusta,2014,9900.0
+Guyana,Robusta,2014,540.0
+Honduras,Arabica,2014,316080.0
+India,Mixed,2014,327000.0
+Jamaica,Arabica,2014,1260.0
+Kenya,Arabica,2014,46200.0
+Lao People's Democratic Republic,Robusta,2014,33120.0
+Liberia,Robusta,2014,420.0
+Mexico,Mixed,2014,218160.0
+Nepal,Arabica,2014,120.0
+Nicaragua,Arabica,2014,113880.0
+Nigeria,Robusta,2014,2580.0
+Panama,Arabica,2014,6360.0
+Sierra Leone,Robusta,2014,2760.0
+Sri Lanka,Mixed,2014,2160.0
+Thailand,Mixed,2014,50700.0
+Togo,Robusta,2014,8580.0
+Trinidad & Tobago,Robusta,2014,720.0
+Uganda,Mixed,2014,224640.0
+Venezuela,Arabica,2014,39000.0
+Viet Nam,Mixed,2014,1634460.0
+Yemen,Arabica,2014,10680.0
+Angola,Mixed,2015,2460.0
+Bolivia (Plurinational State of),Arabica,2015,5040.0
+Brazil,Mixed,2015,3172260.0
+Burundi,Mixed,2015,16140.0
+Ecuador,Mixed,2015,38640.0
+Indonesia,Mixed,2015,755100.0
+Madagascar,Robusta,2015,24840.0
+Malawi,Arabica,2015,1260.0
+Papua New Guinea,Mixed,2015,42720.0
+Paraguay,Arabica,2015,1200.0
+Peru,Arabica,2015,198240.0
+Rwanda,Arabica,2015,17580.0
+Timor-Leste,Arabica,2015,3540.0
+Zimbabwe,Arabica,2015,840.0
+Congo,Robusta,2015,180.0
+Cuba,Arabica,2015,6000.0
+Dominican Republic,Mixed,2015,24000.0
+Haiti,Arabica,2015,20460.0
+Philippines,Mixed,2015,12480.0
+Tanzania,Mixed,2015,55800.0
+Zambia,Arabica,2015,240.0
+Cameroon,Mixed,2015,23460.0
+Central African Republic,Robusta,2015,6000.0
+Colombia,Arabica,2015,840540.0
+Costa Rica,Arabica,2015,86400.0
+Côte d'Ivoire,Robusta,2015,77340.0
+Democratic Republic of Congo,Mixed,2015,22260.0
+El Salvador,Arabica,2015,33900.0
+Ethiopia,Arabica,2015,390900.0
+Gabon,Robusta,2015,60.0
+Ghana,Robusta,2015,2160.0
+Guatemala,Mixed,2015,204600.0
+Guinea,Robusta,2015,17160.0
+Guyana,Robusta,2015,660.0
+Honduras,Arabica,2015,347160.0
+India,Mixed,2015,349800.0
+Jamaica,Arabica,2015,1200.0
+Kenya,Arabica,2015,47940.0
+Lao People's Democratic Republic,Robusta,2015,32100.0
+Liberia,Robusta,2015,600.0
+Mexico,Mixed,2015,166320.0
+Nepal,Arabica,2015,120.0
+Nicaragua,Arabica,2015,127800.0
+Nigeria,Robusta,2015,2460.0
+Panama,Arabica,2015,7620.0
+Sierra Leone,Robusta,2015,2760.0
+Sri Lanka,Mixed,2015,2160.0
+Thailand,Mixed,2015,45720.0
+Togo,Robusta,2015,4860.0
+Trinidad & Tobago,Robusta,2015,720.0
+Uganda,Mixed,2015,219000.0
+Venezuela,Arabica,2015,30000.0
+Viet Nam,Mixed,2015,1865400.0
+Yemen,Arabica,2015,9360.0
+Angola,Mixed,2016,2700.0
+Bolivia (Plurinational State of),Arabica,2016,4680.0
+Brazil,Mixed,2016,3407280.0
+Burundi,Mixed,2016,11760.0
+Ecuador,Mixed,2016,38700.0
+Indonesia,Mixed,2016,692460.0
+Madagascar,Robusta,2016,27180.0
+Malawi,Arabica,2016,1200.0
+Papua New Guinea,Mixed,2016,70260.0
+Paraguay,Arabica,2016,1200.0
+Peru,Arabica,2016,253380.0
+Rwanda,Arabica,2016,13860.0
+Timor-Leste,Arabica,2016,4920.0
+Zimbabwe,Arabica,2016,900.0
+Congo,Robusta,2016,180.0
+Cuba,Arabica,2016,6180.0
+Dominican Republic,Mixed,2016,24720.0
+Haiti,Arabica,2016,20520.0
+Philippines,Mixed,2016,12900.0
+Tanzania,Mixed,2016,50760.0
+Zambia,Arabica,2016,780.0
+Cameroon,Mixed,2016,17520.0
+Central African Republic,Robusta,2016,2220.0
+Colombia,Arabica,2016,878040.0
+Costa Rica,Arabica,2016,82320.0
+Côte d'Ivoire,Robusta,2016,67020.0
+Democratic Republic of Congo,Mixed,2016,16740.0
+El Salvador,Arabica,2016,36600.0
+Ethiopia,Arabica,2016,428580.0
+Ghana,Robusta,2016,1560.0
+Guatemala,Mixed,2016,221040.0
+Guinea,Robusta,2016,16200.0
+Guyana,Robusta,2016,600.0
+Honduras,Arabica,2016,447420.0
+India,Mixed,2016,369660.0
+Jamaica,Arabica,2016,1080.0
+Kenya,Arabica,2016,47580.0
+Lao People's Democratic Republic,Robusta,2016,30600.0
+Liberia,Robusta,2016,720.0
+Mexico,Mixed,2016,218100.0
+Nepal,Arabica,2016,60.0
+Nicaragua,Arabica,2016,153300.0
+Nigeria,Robusta,2016,2580.0
+Panama,Arabica,2016,7200.0
+Sierra Leone,Robusta,2016,2280.0
+Sri Lanka,Mixed,2016,2220.0
+Thailand,Mixed,2016,32280.0
+Togo,Robusta,2016,1380.0
+Trinidad & Tobago,Robusta,2016,720.0
+Uganda,Mixed,2016,297720.0
+Venezuela,Arabica,2016,31500.0
+Viet Nam,Mixed,2016,1669140.0
+Yemen,Arabica,2016,8580.0
+Angola,Mixed,2017,2100.0
+Bolivia (Plurinational State of),Arabica,2017,5040.0
+Brazil,Mixed,2017,3164400.0
+Burundi,Mixed,2017,12120.0
+Ecuador,Mixed,2017,37440.0
+Indonesia,Mixed,2017,651120.0
+Madagascar,Robusta,2017,24240.0
+Malawi,Arabica,2017,840.0
+Papua New Guinea,Mixed,2017,44040.0
+Paraguay,Arabica,2017,1200.0
+Peru,Arabica,2017,256740.0
+Rwanda,Arabica,2017,15840.0
+Timor-Leste,Arabica,2017,3900.0
+Zimbabwe,Arabica,2017,420.0
+Congo,Robusta,2017,180.0
+Cuba,Arabica,2017,6780.0
+Dominican Republic,Mixed,2017,24720.0
+Haiti,Arabica,2017,20520.0
+Philippines,Mixed,2017,12180.0
+Tanzania,Mixed,2017,46980.0
+Zambia,Arabica,2017,1140.0
+Cameroon,Mixed,2017,22200.0
+Central African Republic,Robusta,2017,3600.0
+Colombia,Arabica,2017,829440.0
+Costa Rica,Arabica,2017,93660.0
+Côte d'Ivoire,Robusta,2017,97440.0
+Democratic Republic of Congo,Mixed,2017,22920.0
+El Salvador,Arabica,2017,45600.0
+Ethiopia,Arabica,2017,440820.0
+Ghana,Robusta,2017,780.0
+Guatemala,Mixed,2017,224040.0
+Guinea,Robusta,2017,13740.0
+Guyana,Robusta,2017,600.0
+Honduras,Arabica,2017,453600.0
+India,Mixed,2017,348780.0
+Jamaica,Arabica,2017,1140.0
+Kenya,Arabica,2017,47400.0
+Lao People's Democratic Republic,Robusta,2017,31980.0
+Liberia,Robusta,2017,960.0
+Mexico,Mixed,2017,269100.0
+Nepal,Arabica,2017,120.0
+Nicaragua,Arabica,2017,158520.0
+Nigeria,Robusta,2017,2520.0
+Panama,Arabica,2017,6300.0
+Sierra Leone,Robusta,2017,2280.0
+Sri Lanka,Mixed,2017,2220.0
+Thailand,Mixed,2017,38280.0
+Togo,Robusta,2017,6900.0
+Trinidad & Tobago,Robusta,2017,720.0
+Uganda,Mixed,2017,275820.0
+Venezuela,Arabica,2017,34320.0
+Viet Nam,Mixed,2017,2005920.0
+Yemen,Arabica,2017,7920.0
+Angola,Mixed,2018,2520.0
+Bolivia (Plurinational State of),Arabica,2018,4980.0
+Brazil,Mixed,2018,3907860.0
+Burundi,Mixed,2018,12240.0
+Ecuador,Mixed,2018,29760.0
+Indonesia,Mixed,2018,577080.0
+Madagascar,Robusta,2018,22740.0
+Malawi,Arabica,2018,780.0
+Papua New Guinea,Mixed,2018,55800.0
+Paraguay,Arabica,2018,1200.0
+Peru,Arabica,2018,255780.0
+Rwanda,Arabica,2018,22800.0
+Timor-Leste,Arabica,2018,8340.0
+Zimbabwe,Arabica,2018,600.0
+Congo,Robusta,2018,180.0
+Cuba,Arabica,2018,7680.0
+Dominican Republic,Mixed,2018,25860.0
+Haiti,Arabica,2018,20820.0
+Philippines,Mixed,2018,12360.0
+Tanzania,Mixed,2018,70500.0
+Zambia,Arabica,2018,2040.0
+Cameroon,Mixed,2018,18600.0
+Central African Republic,Robusta,2018,2220.0
+Colombia,Arabica,2018,831960.0
+Costa Rica,Arabica,2018,85620.0
+Côte d'Ivoire,Robusta,2018,130500.0
+Democratic Republic of Congo,Mixed,2018,23820.0
+El Salvador,Arabica,2018,45660.0
+Ethiopia,Arabica,2018,450660.0
+Gabon,Robusta,2018,60.0
+Ghana,Robusta,2018,900.0
+Guatemala,Mixed,2018,240420.0
+Guinea,Robusta,2018,9180.0
+Guyana,Robusta,2018,600.0
+Honduras,Arabica,2018,429180.0
+India,Mixed,2018,319500.0
+Jamaica,Arabica,2018,1080.0
+Kenya,Arabica,2018,55800.0
+Lao People's Democratic Republic,Robusta,2018,38820.0
+Liberia,Robusta,2018,360.0
+Mexico,Mixed,2018,261060.0
+Nepal,Arabica,2018,60.0
+Nicaragua,Arabica,2018,172740.0
+Nigeria,Robusta,2018,2520.0
+Panama,Arabica,2018,7680.0
+Sierra Leone,Robusta,2018,2700.0
+Sri Lanka,Mixed,2018,2160.0
+Thailand,Mixed,2018,28920.0
+Togo,Robusta,2018,3240.0
+Trinidad & Tobago,Robusta,2018,780.0
+Uganda,Mixed,2018,282240.0
+Venezuela,Arabica,2018,34680.0
+Viet Nam,Mixed,2018,1816980.0
+Yemen,Arabica,2018,5160.0
+Angola,Mixed,2019,3120.0
+Bolivia (Plurinational State of),Arabica,2019,4860.0
+Brazil,Mixed,2019,3492660.0
+Burundi,Mixed,2019,16320.0
+Ecuador,Mixed,2019,33540.0
+Indonesia,Mixed,2019,685980.0
+Madagascar,Robusta,2019,22980.0
+Malawi,Arabica,2019,960.0
+Papua New Guinea,Mixed,2019,45120.0
+Paraguay,Arabica,2019,1200.0
+Peru,Arabica,2019,230160.0
+Rwanda,Arabica,2019,20880.0
+Timor-Leste,Arabica,2019,6180.0
+Zimbabwe,Arabica,2019,540.0
+Congo,Robusta,2019,180.0
+Cuba,Arabica,2019,7800.0
+Dominican Republic,Mixed,2019,24120.0
+Haiti,Arabica,2019,20820.0
+Philippines,Mixed,2019,18420.0
+Tanzania,Mixed,2019,55560.0
+Zambia,Arabica,2019,900.0
+Cameroon,Mixed,2019,16080.0
+Central African Republic,Robusta,2019,3300.0
+Colombia,Arabica,2019,846000.0
+Costa Rica,Arabica,2019,88320.0
+Côte d'Ivoire,Robusta,2019,115740.0
+Democratic Republic of Congo,Mixed,2019,23460.0
+El Salvador,Arabica,2019,39660.0
+Ethiopia,Arabica,2019,440580.0
+Ghana,Robusta,2019,840.0
+Guatemala,Mixed,2019,216360.0
+Guinea,Robusta,2019,10680.0
+Guyana,Robusta,2019,600.0
+Honduras,Arabica,2019,355860.0
+India,Mixed,2019,299280.0
+Jamaica,Arabica,2019,1380.0
+Kenya,Arabica,2019,50640.0
+Lao People's Democratic Republic,Robusta,2019,37320.0
+Liberia,Robusta,2019,360.0
+Mexico,Mixed,2019,239100.0
+Nepal,Arabica,2019,60.0
+Nicaragua,Arabica,2019,172920.0
+Nigeria,Robusta,2019,2520.0
+Panama,Arabica,2019,6840.0
+Sierra Leone,Robusta,2019,2400.0
+Sri Lanka,Mixed,2019,2160.0
+Thailand,Mixed,2019,31020.0
+Togo,Robusta,2019,2460.0
+Trinidad & Tobago,Robusta,2019,720.0
+Uganda,Mixed,2019,330540.0
+Venezuela,Arabica,2019,39000.0
+Viet Nam,Mixed,2019,1829220.0
+Yemen,Arabica,2019,5460.0

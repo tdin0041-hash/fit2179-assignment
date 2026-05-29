@@ -1,0 +1,180 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+  "title": {
+    "text": "Australia's Coffee at a Glance",
+    "subtitle": "Australia ranks 20th globally in total coffee consumption",
+    "fontSize": 18,
+    "subtitleFontSize": 13,
+    "anchor": "start"
+  },
+  "config": {
+    "view": {"stroke": "#e8d5b7"},
+    "concat": {"spacing": 15}
+  },
+  "vconcat": [
+    {
+      "hconcat": [
+        {
+          "width": 200,
+          "height": 110,
+          "view": {"fill": "#fef3e2"},
+          "layer": [
+            {
+              "data": {"values": [{"x": 100, "y": 45, "text": "5.88 kg"}]},
+              "mark": {"type": "text", "fontSize": 34, "fontWeight": "bold", "color": "#4e2a04"},
+              "encoding": {
+                "x": {"field": "x", "type": "quantitative", "scale": {"domain": [0, 200]}, "axis": null},
+                "y": {"field": "y", "type": "quantitative", "scale": {"domain": [0, 110], "reverse": true}, "axis": null},
+                "text": {"field": "text", "type": "nominal"}
+              }
+            },
+            {
+              "data": {"values": [{"x": 100, "y": 75, "text": "PER CAPITA CONSUMPTION"}]},
+              "mark": {"type": "text", "fontSize": 10, "fontWeight": "bold", "color": "#888888"},
+              "encoding": {
+                "x": {"field": "x", "type": "quantitative", "scale": {"domain": [0, 200]}, "axis": null},
+                "y": {"field": "y", "type": "quantitative", "scale": {"domain": [0, 110], "reverse": true}, "axis": null},
+                "text": {"field": "text", "type": "nominal"}
+              }
+            }
+          ]
+        },
+        {
+          "width": 200,
+          "height": 110,
+          "view": {"fill": "#fef3e2"},
+          "layer": [
+            {
+              "data": {"values": [{"x": 100, "y": 45, "text": "20th / 131"}]},
+              "mark": {"type": "text", "fontSize": 34, "fontWeight": "bold", "color": "#4e2a04"},
+              "encoding": {
+                "x": {"field": "x", "type": "quantitative", "scale": {"domain": [0, 200]}, "axis": null},
+                "y": {"field": "y", "type": "quantitative", "scale": {"domain": [0, 110], "reverse": true}, "axis": null},
+                "text": {"field": "text", "type": "nominal"}
+              }
+            },
+            {
+              "data": {"values": [{"x": 100, "y": 75, "text": "GLOBAL RANK BY TOTAL CONSUMPTION"}]},
+              "mark": {"type": "text", "fontSize": 10, "fontWeight": "bold", "color": "#888888"},
+              "encoding": {
+                "x": {"field": "x", "type": "quantitative", "scale": {"domain": [0, 200]}, "axis": null},
+                "y": {"field": "y", "type": "quantitative", "scale": {"domain": [0, 110], "reverse": true}, "axis": null},
+                "text": {"field": "text", "type": "nominal"}
+              }
+            }
+          ]
+        },
+        {
+          "width": 200,
+          "height": 110,
+          "view": {"fill": "#fef3e2"},
+          "layer": [
+            {
+              "data": {"values": [{"x": 100, "y": 45, "text": "155,000 t"}]},
+              "mark": {"type": "text", "fontSize": 34, "fontWeight": "bold", "color": "#4e2a04"},
+              "encoding": {
+                "x": {"field": "x", "type": "quantitative", "scale": {"domain": [0, 200]}, "axis": null},
+                "y": {"field": "y", "type": "quantitative", "scale": {"domain": [0, 110], "reverse": true}, "axis": null},
+                "text": {"field": "text", "type": "nominal"}
+              }
+            },
+            {
+              "data": {"values": [{"x": 100, "y": 75, "text": "TOTAL IMPORTS"}]},
+              "mark": {"type": "text", "fontSize": 10, "fontWeight": "bold", "color": "#888888"},
+              "encoding": {
+                "x": {"field": "x", "type": "quantitative", "scale": {"domain": [0, 200]}, "axis": null},
+                "y": {"field": "y", "type": "quantitative", "scale": {"domain": [0, 110], "reverse": true}, "axis": null},
+                "text": {"field": "text", "type": "nominal"}
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "width": 630,
+      "height": 200,
+      "data": {
+        "values": [
+          {"Country": "Canada",      "tonnes": 269000, "highlight": false},
+          {"Country": "Russia",      "tonnes": 186000, "highlight": false},
+          {"Country": "Spain",       "tonnes": 174000, "highlight": false},
+          {"Country": "Turkey",      "tonnes": 159000, "highlight": false},
+          {"Country": "Australia",   "tonnes": 155000, "highlight": true},
+          {"Country": "South Korea", "tonnes": 133000, "highlight": false},
+          {"Country": "Argentina",   "tonnes": 115000, "highlight": false},
+          {"Country": "Sweden",      "tonnes": 115000, "highlight": false},
+          {"Country": "Mexico",      "tonnes": 107000, "highlight": false},
+          {"Country": "Greece",      "tonnes": 102000, "highlight": false}
+        ]
+      },
+      "layer": [
+        {
+          "mark": {"type": "bar", "cornerRadius": 3},
+          "encoding": {
+            "x": {
+              "field": "Country",
+              "type": "nominal",
+              "sort": {"field": "tonnes", "order": "descending"},
+              "axis": {
+                "title": "Countries with similar total coffee consumption to Australia",
+                "labelAngle": -25,
+                "labelFontSize": 11,
+                "titleFontSize": 11
+              }
+            },
+            "y": {
+              "field": "tonnes",
+              "type": "quantitative",
+              "axis": {
+                "title": "Total Consumption (tonnes)",
+                "format": "~s",
+                "titleFontSize": 11,
+                "grid": true,
+                "gridDash": [3, 3],
+                "gridColor": "#e0e0e0"
+              }
+            },
+            "color": {
+              "condition": {"test": "datum.highlight", "value": "#e65100"},
+              "value": "#c4a882"
+            },
+            "tooltip": [
+              {"field": "Country", "type": "nominal", "title": "Country"},
+              {"field": "tonnes", "type": "quantitative", "title": "Total Consumption (tonnes)", "format": ","}
+            ]
+          }
+        },
+        {
+          "mark": {
+            "type": "rule",
+            "color": "#666",
+            "strokeDash": [4, 4],
+            "strokeWidth": 1.5
+          },
+          "data": {"values": [{"y": 87992}]},
+          "encoding": {
+            "y": {"field": "y", "type": "quantitative"}
+          }
+        },
+        {
+          "mark": {
+            "type": "text",
+            "align": "left",
+            "dx": 4,
+            "dy": -6,
+            "fontSize": 10,
+            "color": "#666",
+            "fontStyle": "italic"
+          },
+          "data": {"values": [{"x": "Greece", "y": 87992, "label": "World avg: 87,992 t"}]},
+          "encoding": {
+            "x": {"field": "x", "type": "nominal"},
+            "y": {"field": "y", "type": "quantitative"},
+            "text": {"field": "label", "type": "nominal"}
+          }
+        }
+      ]
+    }
+  ]
+}

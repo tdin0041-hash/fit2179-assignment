@@ -1,0 +1,78 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Arabica, Robusta & Mixed — Global Production Over Time",
+    "subtitle": "Total coffee production in tonnes by bean type (1990–2019)",
+    "fontSize": 18,
+    "subtitleFontSize": 13,
+    "anchor": "start"
+  },
+  "width": 800,
+  "height": 400,
+  "data": {
+    "url": "https://raw.githubusercontent.com/tdin0041-hash/fit2179-assignment/refs/heads/main/coffee_production.csv"
+  },
+  "transform": [
+    {
+      "aggregate": [
+        {"op": "sum", "field": "Production_tonnes", "as": "Production_tonnes"}
+      ],
+      "groupby": ["Year", "Coffee_type"]
+    }
+  ],
+  "mark": {
+    "type": "area",
+    "interpolate": "monotone",
+    "opacity": 0.85
+  },
+  "encoding": {
+    "x": {
+      "field": "Year",
+      "type": "quantitative",
+      "axis": {
+        "format": "d",
+        "title": "Year",
+        "grid": false,
+        "tickCount": 6
+      }
+    },
+    "y": {
+      "field": "Production_tonnes",
+      "type": "quantitative",
+      "stack": "center",
+      "axis": {
+        "title": null,
+        "labels": false,
+        "ticks": false,
+        "grid": false
+      }
+    },
+    "color": {
+      "field": "Coffee_type",
+      "type": "nominal",
+      "scale": {
+        "domain": ["Arabica", "Robusta", "Mixed"],
+        "range": ["#4e2a04", "#a0522d", "#d4956a"]
+      },
+      "legend": {
+        "title": "Bean Type",
+        "orient": "bottom-right",
+        "titleFontSize": 12,
+        "labelFontSize": 11
+      }
+    },
+    "tooltip": [
+      {"field": "Coffee_type", "type": "nominal", "title": "Bean Type"},
+      {"field": "Year", "type": "quantitative", "title": "Year", "format": "d"},
+      {
+        "field": "Production_tonnes",
+        "type": "quantitative",
+        "title": "Production (tonnes)",
+        "format": ","
+      }
+    ]
+  },
+  "config": {
+    "view": {"stroke": null}
+  }
+}

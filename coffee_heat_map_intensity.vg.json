@@ -1,0 +1,92 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Coffee Production Intensity by Country",
+    "subtitle": "Annual production in tonnes for top 15 producers (1990–2019)",
+    "fontSize": 18,
+    "subtitleFontSize": 13,
+    "anchor": "start"
+  },
+  "width": 800,
+  "height": 350,
+  "data": {
+    "url": "https://raw.githubusercontent.com/tdin0041-hash/fit2179-assignment/refs/heads/main/coffee_production.csv"
+  },
+  "transform": [
+    {
+      "aggregate": [
+        {"op": "sum", "field": "Production_tonnes", "as": "Production_tonnes"}
+      ],
+      "groupby": ["Country", "Year"]
+    },
+    {
+      "calculate": "datum.Country == 'Viet Nam' ? 'Vietnam' : datum.Country",
+      "as": "Country_label"
+    },
+    {
+      "window": [{"op": "sum", "field": "Production_tonnes", "as": "Total_production"}],
+      "groupby": ["Country_label"],
+      "frame": [null, null]
+    },
+    {
+      "filter": {
+        "field": "Country_label",
+        "oneOf": [
+          "Brazil", "Vietnam", "Colombia", "Indonesia",
+          "Ethiopia", "India", "Mexico", "Guatemala",
+          "Honduras", "Uganda", "Peru", "Côte d'Ivoire",
+          "Costa Rica", "El Salvador", "Nicaragua"
+        ]
+      }
+    }
+  ],
+  "mark": {"type": "rect"},
+  "encoding": {
+    "x": {
+      "field": "Year",
+      "type": "ordinal",
+      "axis": {
+        "title": "Year",
+        "labelAngle": -45,
+        "labelFontSize": 10,
+        "values": [1990, 1995, 2000, 2005, 2010, 2015, 2019]
+      }
+    },
+    "y": {
+      "field": "Country_label",
+      "type": "nominal",
+      "sort": {"field": "Total_production", "op": "max", "order": "descending"},
+      "axis": {"title": null, "labelFontSize": 11}
+    },
+    "color": {
+      "field": "Production_tonnes",
+      "type": "quantitative",
+      "scale": {
+        "type": "log",
+        "scheme": "yelloworangebrown"
+      },
+      "legend": {
+        "title": "Tonnes produced",
+        "orient": "bottom",
+        "titleFontSize": 11,
+        "labelFontSize": 10,
+        "gradientLength": 300,
+        "direction": "horizontal"
+      }
+    },
+    "tooltip": [
+      {"field": "Country_label", "type": "nominal", "title": "Country"},
+      {"field": "Year", "type": "ordinal", "title": "Year"},
+      {
+        "field": "Production_tonnes",
+        "type": "quantitative",
+        "title": "Production (tonnes)",
+        "format": ","
+      }
+    ]
+  },
+  "config": {
+    "view": {"stroke": null},
+    "axis": {"grid": false}
+  }
+}

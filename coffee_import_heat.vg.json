@@ -1,0 +1,95 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+  "title": {
+    "text": "Coffee Import Intensity Over Time",
+    "subtitle": "Annual import volume in tonnes for top 15 importing countries (1990–2019)",
+    "fontSize": 18,
+    "subtitleFontSize": 13,
+    "anchor": "start"
+  },
+  "width": 800,
+  "height": 350,
+  "data": {
+    "url": "https://raw.githubusercontent.com/tdin0041-hash/fit2179-assignment/refs/heads/main/coffee_import.csv",
+    "format": {
+      "type": "csv",
+      "parse": {
+        "Year": "number",
+        "Import_tonnes": "number"
+      }
+    }
+  },
+  "transform": [
+    {
+      "filter": {
+        "field": "Country",
+        "oneOf": [
+          "United States of America", "Germany", "Italy", "Japan",
+          "France", "Spain", "United Kingdom", "Belgium",
+          "Netherlands", "Russian Federation", "Poland",
+          "Switzerland", "Sweden", "Austria", "Finland"
+        ]
+      }
+    },
+    {
+      "calculate": "datum.Country == 'United States of America' ? 'United States' : datum.Country == 'Russian Federation' ? 'Russia' : datum.Country == 'United Kingdom' ? 'UK' : datum.Country",
+      "as": "Country_label"
+    },
+    {
+      "window": [
+        {"op": "sum", "field": "Import_tonnes", "as": "Total_import"}
+      ],
+      "groupby": ["Country_label"],
+      "frame": [null, null]
+    }
+  ],
+  "mark": {"type": "rect"},
+  "encoding": {
+    "x": {
+      "field": "Year",
+      "type": "ordinal",
+      "axis": {
+        "title": "Year",
+        "labelAngle": -45,
+        "labelFontSize": 10,
+        "values": [1990, 1995, 2000, 2005, 2010, 2015, 2019]
+      }
+    },
+    "y": {
+      "field": "Country_label",
+      "type": "nominal",
+      "sort": {"field": "Total_import", "op": "max", "order": "descending"},
+      "axis": {"title": null, "labelFontSize": 11}
+    },
+    "color": {
+      "field": "Import_tonnes",
+      "type": "quantitative",
+      "scale": {
+        "type": "log",
+        "scheme": "blues"
+      },
+      "legend": {
+        "title": "Tonnes imported",
+        "orient": "bottom",
+        "direction": "horizontal",
+        "titleFontSize": 11,
+        "labelFontSize": 10,
+        "gradientLength": 300
+      }
+    },
+    "tooltip": [
+      {"field": "Country_label", "type": "nominal", "title": "Country"},
+      {"field": "Year", "type": "ordinal", "title": "Year"},
+      {
+        "field": "Import_tonnes",
+        "type": "quantitative",
+        "title": "Imports (tonnes)",
+        "format": ","
+      }
+    ]
+  },
+  "config": {
+    "view": {"stroke": null},
+    "axis": {"grid": false}
+  }
+}

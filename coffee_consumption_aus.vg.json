@@ -1,0 +1,138 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+  "title": {
+    "text": "Coffee Consumption — Volume vs Per Capita",
+    "subtitle": "Each dot is a country. Australia sits above the global average in per capita consumption.",
+    "fontSize": 18,
+    "subtitleFontSize": 13,
+    "anchor": "start"
+  },
+  "width": 650,
+  "height": 480,
+  "data": {
+    "url": "https://raw.githubusercontent.com/tdin0041-hash/fit2179-assignment/refs/heads/main/coffee%20consumptions.csv",
+    "format": {
+      "type": "csv",
+      "parse": {
+        "Imports_tonnes": "number",
+        "Coffee_kg_per_capita": "number"
+      }
+    }
+  },
+  "transform": [
+    {"filter": "datum.Imports_tonnes > 1000"},
+    {"filter": "datum.Coffee_kg_per_capita != null"}
+  ],
+  "layer": [
+    {
+      "mark": {
+        "type": "rule",
+        "strokeDash": [4, 4],
+        "color": "#aaaaaa",
+        "strokeWidth": 1
+      },
+      "encoding": {
+        "y": {"datum": 5.66}
+      }
+    },
+    {
+      "mark": {"type": "point", "filled": true, "opacity": 0.6},
+      "encoding": {
+        "x": {
+          "field": "Imports_tonnes",
+          "type": "quantitative",
+          "scale": {"type": "log"},
+          "axis": {
+            "title": "Total Imports (tonnes, log scale)",
+            "format": "~s",
+            "grid": true,
+            "gridDash": [3, 3],
+            "gridColor": "#e0e0e0",
+            "titleFontSize": 11
+          }
+        },
+        "y": {
+          "field": "Coffee_kg_per_capita",
+          "type": "quantitative",
+          "axis": {
+            "title": "Coffee (kg per capita)",
+            "grid": true,
+            "gridDash": [3, 3],
+            "gridColor": "#e0e0e0",
+            "titleFontSize": 11
+          }
+        },
+        "color": {
+          "condition": {
+            "test": "datum.Country == 'Australia'",
+            "value": "#e65100"
+          },
+          "value": "#c4a882"
+        },
+        "size": {
+          "condition": {
+            "test": "datum.Country == 'Australia'",
+            "value": 250
+          },
+          "value": 50
+        },
+        "tooltip": [
+          {"field": "Country", "type": "nominal", "title": "Country"},
+          {"field": "Imports_tonnes", "type": "quantitative", "title": "Imports (tonnes)", "format": ","},
+          {"field": "Coffee_kg_per_capita", "type": "quantitative", "title": "kg per capita", "format": ".2f"}
+        ]
+      }
+    },
+    {
+      "transform": [
+        {
+          "filter": "datum.Country == 'Australia' || datum.Country == 'Hong Kong' || datum.Country == 'Ireland' || datum.Country == 'Luxembourg' || datum.Country == 'United States'"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "fontSize": 11,
+        "fontWeight": "bold",
+        "dx": 8,
+        "dy": -8
+      },
+      "encoding": {
+        "x": {
+          "field": "Imports_tonnes",
+          "type": "quantitative",
+          "scale": {"type": "log"}
+        },
+        "y": {
+          "field": "Coffee_kg_per_capita",
+          "type": "quantitative"
+        },
+        "text": {"field": "Country", "type": "nominal"},
+        "color": {
+          "condition": {
+            "test": "datum.Country == 'Australia'",
+            "value": "#e65100"
+          },
+          "value": "#555555"
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "dx": 4,
+        "dy": -8,
+        "fontSize": 10,
+        "color": "#888888",
+        "fontStyle": "italic"
+      },
+      "data": {"values": [{"x": 1200, "y": 5.66, "label": "Global avg: 5.66 kg"}]},
+      "encoding": {
+        "x": {"field": "x", "type": "quantitative", "scale": {"type": "log"}},
+        "y": {"field": "y", "type": "quantitative"},
+        "text": {"field": "label", "type": "nominal"}
+      }
+    }
+  ],
+  "config": {"view": {"stroke": null}}
+}

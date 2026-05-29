@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Global Coffee — From Bean to Cup</title>
   <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
-  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@6"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
   <style>
     body { font-family: sans-serif; max-width: 1000px; margin: 0 auto; padding: 40px 20px; }
@@ -33,17 +33,30 @@
   <!-- Chart 3: Streamgraph -->
   <h2>Arabica vs Robusta — A Shifting Balance</h2>
   <p>Your narrative text...</p>
-  <div id="streamgraph" class="chart"></div>
+  <div id="area" class="chart"></div>
 
-  <!-- Add more sections as you build more charts -->
+  <!-- Chart 4: Heatmap -->
+  <h2>Coffee Production Intensity by Country</h2>
+  <p>Your narrative text...</p>
+  <div id="heat" class="chart"></div>
+
+  <!-- Chart 5: Lollipop -->
+  <h2>Global Coffee Exporters</h2>
+  <p>Your narrative text...</p>
+  <div id="lollipop" class="chart"></div>
+
+  <!-- Chart 6: Connected Scatter -->
+  <h2>Do Producers Export Everything They Grow?</h2>
+  <p>Your narrative text...</p>
+  <div id="slope" class="chart"></div>
 
   <script>
-    vegaEmbed('#map',        'coffee_consumption.vg.json');
-    vegaEmbed('#bump',       'top_10_producer.vg.json');
-    vegaEmbed('#area',       'coffee_streamgraph.vg.json');
-    vegaEmbed('#heat',       'coffee_heat_map_intensity.vg.json');
-    vegaEmbed('#lollipop',   'coffee_export.vg.json');
-    vegaEmbed('#slope',   'coffee_slope.vg.json');
+    vegaEmbed('#map',      'coffee_consumption.vg.json');
+    vegaEmbed('#bump',     'top_10_producer.vg.json');
+    vegaEmbed('#area',     'coffee_streamgraph.vg.json');
+    vegaEmbed('#heat',     'coffee_heat_map_intensity.vg.json');
+    vegaEmbed('#lollipop', 'coffee_export.vg.json');
+    vegaEmbed('#slope',    'coffee_slope.vg.json');
   </script>
 
 </body>

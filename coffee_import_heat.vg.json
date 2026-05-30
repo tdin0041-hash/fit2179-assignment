@@ -1,5 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+  "background": "#fdf6ec",
   "title": {
     "text": "Coffee Import Intensity Over Time",
     "subtitle": "Annual import volume in tonnes for top 15 importing countries (1990–2019)",

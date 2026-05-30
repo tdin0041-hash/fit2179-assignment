@@ -44,7 +44,7 @@
           "type": "quantitative",
           "scale": {"type": "log"},
           "axis": {
-            "title": "Total Imports (tonnes, log scale)",
+            "title": "Total Consumption (tonnes, log scale)",
             "format": "~s",
             "grid": true,
             "gridDash": [3, 3],

@@ -9,7 +9,7 @@
     "anchor": "start"
   },
   "config": {
-    "view": {"stroke": null},
+    "view": {"fill": "#fdf6ec", "stroke": null},
     "concat": {"spacing": 15}
   },
   "vconcat": [

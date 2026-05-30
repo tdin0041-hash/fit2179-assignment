@@ -1,5 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+  "background": "#fdf6ec",
   "title": {
     "text": "Global Coffee Exporters — Total Volume (1990–2019)",
     "subtitle": "All coffee-exporting countries ranked by total export volume",

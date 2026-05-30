@@ -2,8 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "background": "#fdf6ec",
   "title": {
-    "text": "Arabica, Robusta & Mixed — Global Production Over Time",
-    "subtitle": "Total coffee production in tonnes by bean type (1990–2019)",
+    "text": "Global Coffee Production By Bean Type (1990-2019)",
     "fontSize": 18,
     "subtitleFontSize": 13,
     "anchor": "start"

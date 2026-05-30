@@ -2,8 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
   "background": "#fdf6ec",
   "title": {
-    "text": "Do Coffee Producers Export Everything They Grow?",
-    "subtitle": "Production vs export volume for top 10 producers (1990–2018). Points closer to the diagonal export almost all they produce.",
+    "text": "Production vs Export Volume For Top 10 Countries (1990–2018)?",
     "fontSize": 18,
     "subtitleFontSize": 13,
     "anchor": "start"

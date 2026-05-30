@@ -79,7 +79,7 @@
         },
         "tooltip": [
           {"field": "Country", "type": "nominal", "title": "Country"},
-          {"field": "Imports_tonnes", "type": "quantitative", "title": "Imports (tonnes)", "format": ","},
+          {"field": "Imports_tonnes", "type": "quantitative", "title": "Consumption (tonnes)", "format": ","},
           {"field": "Coffee_kg_per_capita", "type": "quantitative", "title": "kg per capita", "format": ".2f"}
         ]
       }

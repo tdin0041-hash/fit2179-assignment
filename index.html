@@ -3,88 +3,489 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Global Coffee — From Bean to Cup</title>
+  <title>From Bean to Cup — Global Coffee</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Source+Serif+4:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-lite@6"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
   <style>
-    body { font-family: sans-serif; max-width: 1000px; margin: 0 auto; padding: 40px 20px; }
-    h1 { font-size: 2rem; }
-    h2 { font-size: 1.4rem; margin-top: 60px; }
-    p  { line-height: 1.6; color: #444; }
-    .chart { margin: 30px 0; }
+    :root {
+      --espresso:   #1a0a00;
+      --dark-brown: #3d1c02;
+      --mid-brown:  #6f3a1a;
+      --tan:        #c47c3e;
+      --cream:      #fdf6ec;
+      --light-tan:  #f5e6d0;
+      --text:       #2c1a0e;
+      --muted:      #7a5c44;
+      --rule:       #d9c4aa;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--cream);
+      color: var(--text);
+      font-family: 'Source Serif 4', Georgia, serif;
+      font-weight: 300;
+      line-height: 1.8;
+    }
+
+    /* ── HEADER ── */
+    .site-header {
+      background: var(--espresso);
+      color: var(--cream);
+      padding: 80px 40px 60px;
+      text-align: center;
+      border-bottom: 4px solid var(--tan);
+    }
+
+    .site-header .eyebrow {
+      font-family: 'Source Serif 4', serif;
+      font-size: 0.8rem;
+      letter-spacing: 0.25em;
+      text-transform: uppercase;
+      color: var(--tan);
+      margin-bottom: 16px;
+    }
+
+    .site-header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(2.8rem, 6vw, 5rem);
+      font-weight: 700;
+      line-height: 1.1;
+      color: #fff;
+      margin-bottom: 20px;
+    }
+
+    .site-header h1 em {
+      font-style: italic;
+      color: var(--tan);
+    }
+
+    .site-header .intro {
+      max-width: 680px;
+      margin: 0 auto;
+      font-size: 1.05rem;
+      color: #c8b49a;
+      line-height: 1.9;
+    }
+
+    /* ── CONTENT WRAPPER ── */
+    .content {
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 0 30px;
+    }
+
+    /* ── ACT HEADERS ── */
+    .act-header {
+      padding: 70px 0 20px;
+      border-top: 2px solid var(--rule);
+      margin-top: 70px;
+    }
+
+    .act-header .act-label {
+      font-size: 0.75rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--tan);
+      font-family: 'Source Serif 4', serif;
+      margin-bottom: 10px;
+    }
+
+    .act-header h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(1.8rem, 4vw, 2.8rem);
+      font-weight: 700;
+      color: var(--dark-brown);
+      line-height: 1.2;
+      margin-bottom: 16px;
+    }
+
+    .act-header .act-desc {
+      font-size: 1rem;
+      color: var(--muted);
+      max-width: 680px;
+      line-height: 1.8;
+    }
+
+    /* ── CHART SECTIONS ── */
+    .chart-section {
+      margin: 60px 0;
+    }
+
+    .chart-section h3 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: var(--dark-brown);
+      margin-bottom: 10px;
+    }
+
+    .chart-section .narrative {
+      font-size: 0.97rem;
+      color: var(--text);
+      max-width: 780px;
+      margin-bottom: 24px;
+      line-height: 1.85;
+    }
+
+    .chart-section .narrative strong {
+      color: var(--dark-brown);
+      font-weight: 400;
+    }
+
+    .chart-wrap {
+      background: #fff;
+      border: 1px solid var(--rule);
+      border-radius: 6px;
+      padding: 24px;
+      overflow-x: auto;
+    }
+
+    /* ── PULL QUOTE ── */
+    .pull-quote {
+      border-left: 4px solid var(--tan);
+      padding: 16px 24px;
+      margin: 40px 0;
+      background: var(--light-tan);
+      border-radius: 0 6px 6px 0;
+    }
+
+    .pull-quote p {
+      font-family: 'Playfair Display', serif;
+      font-style: italic;
+      font-size: 1.15rem;
+      color: var(--dark-brown);
+      line-height: 1.7;
+    }
+
+    /* ── DIVIDER ── */
+    .divider {
+      text-align: center;
+      color: var(--rule);
+      font-size: 1.5rem;
+      letter-spacing: 0.5em;
+      margin: 60px 0;
+    }
+
+    /* ── FOOTER ── */
+    .site-footer {
+      background: var(--espresso);
+      color: #c8b49a;
+      padding: 50px 40px;
+      margin-top: 80px;
+    }
+
+    .site-footer .footer-inner {
+      max-width: 980px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 40px;
+    }
+
+    .site-footer h4 {
+      font-family: 'Playfair Display', serif;
+      color: var(--cream);
+      margin-bottom: 12px;
+      font-size: 1rem;
+    }
+
+    .site-footer p,
+    .site-footer a {
+      font-size: 0.85rem;
+      line-height: 1.8;
+      color: #a08060;
+    }
+
+    .site-footer a {
+      color: var(--tan);
+      text-decoration: none;
+    }
+
+    .site-footer a:hover { text-decoration: underline; }
+
+    .site-footer .author-block {
+      border-top: 1px solid #3d2a1a;
+      margin-top: 30px;
+      padding-top: 20px;
+      grid-column: 1 / -1;
+      font-size: 0.82rem;
+      color: #7a5c44;
+    }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 720px) {
+      .site-footer .footer-inner { grid-template-columns: 1fr; }
+      .chart-wrap { padding: 12px; }
+    }
   </style>
 </head>
 <body>
 
-  <h1>From Bean to Cup</h1>
-  <p>Your intro paragraph about the story here...</p>
+  <!-- ══ HEADER ══ -->
+  <header class="site-header">
+    <p class="eyebrow">A Data Visualisation</p>
+    <h1>From <em>Bean</em> to Cup</h1>
+    <p class="intro">
+      Coffee is the world's most traded agricultural commodity and the second most consumed beverage after water.
+      This visualisation traces coffee's journey — from the farms of Brazil and Vietnam, through the global trading
+      network, to the cups of 131 countries. Along the way, we explore what Australia's love of coffee looks like
+      on a global scale.
+    </p>
+  </header>
 
-  <!-- Chart 1: Consumption Map -->
-  <h2>Where Does the World Get Its Coffee Fix?</h2>
-  <p>Your narrative text explaining the map...</p>
-  <div id="map" class="chart"></div>
+  <div class="content">
 
-  <!-- Chart 2: Bump Chart -->
-  <h2>The Rise and Fall of Coffee Producers</h2>
-  <p>Your narrative text explaining the bump chart...</p>
-  <div id="bump" class="chart"></div>
+    <!-- ══ ACT 1 ══ -->
+    <div class="act-header">
+      <p class="act-label">Act I</p>
+      <h2>Where Coffee Comes From</h2>
+      <p class="act-desc">
+        Coffee grows in a narrow belt around the equator known as the Bean Belt. A handful of countries
+        dominate global production, but the balance of power has shifted dramatically over the past three decades.
+      </p>
+    </div>
 
-  <!-- Chart 3: Streamgraph -->
-  <h2>Arabica vs Robusta — A Shifting Balance</h2>
-  <p>Your narrative text...</p>
-  <div id="area" class="chart"></div>
+    <!-- Chart 1: Map -->
+    <div class="chart-section">
+      <h3>A World Divided by Coffee</h3>
+      <p class="narrative">
+        Coffee consumption tells two very different stories depending on how you measure it.
+        Toggle to <strong>Per Capita</strong> and small nations like Hong Kong, Laos, and the Nordic countries
+        dominate — places where coffee is woven into daily culture. Switch to <strong>Total Consumption</strong>
+        and the picture shifts to population giants — the United States, Brazil, and the Philippines.
+        Australia appears consistently in both views as a serious coffee nation.
+      </p>
+      <div class="chart-wrap">
+        <div id="map"></div>
+      </div>
+    </div>
 
-  <!-- Chart 4: Heatmap -->
-  <h2>Coffee Production Intensity by Country</h2>
-  <p>Your narrative text...</p>
-  <div id="heat" class="chart"></div>
+    <!-- Chart 2: Bump -->
+    <!-- Chart 2: Bump -->
+    <div class="chart-section">
+      <h3>A Shifting Supply Chain — What It Means for Australian Coffee</h3>
+      <p class="narrative">
+        The coffee in an Australian cup has changed dramatically over the past three decades.
+        Brazil has held the top spot throughout, supplying much of the world's Arabica —
+        the bean behind the espresso-based drinks Australians love.
+        But the rise of <strong>Vietnam and Indonesia</strong>, both close to Australia geographically,
+        has transformed the regional supply chain, making high-volume Robusta beans cheaper and
+        more accessible than ever. Meanwhile countries like Côte d'Ivoire and El Salvador
+        have fallen out of the top 10, quietly reshaping which origins end up in
+        Australian roasters and blends.
+      </p>
+      <div class="chart-wrap">
+        <div id="bump"></div>
+      </div>
+    </div>
 
-  <!-- Chart 5: Lollipop -->
-  <h2>Global Coffee Exporters</h2>
-  <p>Your narrative text...</p>
-  <div id="lollipop" class="chart"></div>
+    <div class="pull-quote">
+      <p>"Two of the world's top four coffee producers — Vietnam and Indonesia — are within Australia's own region, making the Asia-Pacific a quietly powerful force in global coffee supply."</p>
+    </div>
 
-  <!-- Chart 6: Connected Scatter -->
-  <h2>Do Producers Export Everything They Grow?</h2>
-  <p>Your narrative text...</p>
-  <div id="slope" class="chart"></div>
+    <!-- Chart 3: Streamgraph -->
+    <div class="chart-section">
+      <h3>Arabica vs Robusta — A Shifting Balance</h3>
+      <p class="narrative">
+        Not all coffee is equal. <strong>Arabica</strong> beans — prized for complex flavours, grown at high altitudes —
+        have long dominated specialty coffee. <strong>Robusta</strong> is cheaper, higher in caffeine, and more
+        disease-resistant, making it the bean of choice for instant coffee and mass-market espresso blends.
+        The growth in global production has been driven largely by mixed-cultivation countries like Brazil and Vietnam,
+        reflecting the world's growing appetite for affordable, everyday coffee.
+      </p>
+      <div class="chart-wrap">
+        <div id="area"></div>
+      </div>
+    </div>
 
-  <!-- Chart 7: Streamgraph -->
-  <h2>How Has Coffee Importing Changed?</h2>
-  <p>Your narrative text...</p>
-  <div id="dumbel" class="chart"></div>
+    <!-- Chart 4: Heatmap -->
+    <div class="chart-section">
+      <h3>Production Intensity — Droughts, Booms and Steady Giants</h3>
+      <p class="narrative">
+        The heatmap reveals patterns that line charts miss. Brazil's row burns consistently dark across all
+        three decades — unbroken dominance. Vietnam's row starts nearly invisible in 1990 and intensifies
+        year by year. Notice <strong>Ethiopia's row</strong>: steady but modest, reflecting a country that
+        grows exceptional coffee but consumes much of it domestically rather than exporting. Lighter years
+        for Colombia in the late 1990s and 2009 coincide with crop disease and the global financial crisis.
+      </p>
+      <div class="chart-wrap">
+        <div id="heat"></div>
+      </div>
+    </div>
 
-  <!-- Chart 8: Streamgraph -->
-  <h2>coffee in Aus?</h2>
-  <p>Your narrative text...</p>
-  <div id="scater" class="chart"></div>
+    <div class="divider">☕ ☕ ☕</div>
 
-  <!-- Chart 9: Streamgraph -->
-  <h2>How Has Coffee Importing Changed?</h2>
-  <p>Your narrative text...</p>
-  <div id="heatmap" class="chart"></div>
+    <!-- ══ ACT 2 ══ -->
+    <div class="act-header">
+      <p class="act-label">Act II</p>
+      <h2>How Coffee Travels</h2>
+      <p class="act-desc">
+        Coffee is rarely consumed where it is grown. It travels thousands of kilometres — from tropical farms
+        to roasters, from ports to supermarket shelves. The global coffee trade reveals who holds the power
+        in the supply chain.
+      </p>
+    </div>
 
-  <!-- Chart 10: Streamgraph -->
-  <h2>coffee in aus</h2>
-  <p>Your narrative text...</p>
-  <div id="card" class="chart"></div>
+    <!-- Chart 5: Lollipop -->
+    <div class="chart-section">
+      <h3>Who Exports the Most?</h3>
+      <p class="narrative">
+        When it comes to export volume, <strong>Latin America commands the global coffee trade</strong>.
+        Brazil alone exports more coffee than the entire Asian continent combined. Yet Africa —
+        Uganda, Ethiopia, and Côte d'Ivoire — punches above its weight as the continent where coffee
+        was first discovered. Asia's exports are concentrated almost entirely in Vietnam and Indonesia.
+        Papua New Guinea stands alone as the sole Oceanian exporter.
+      </p>
+      <div class="chart-wrap">
+        <div id="lollipop"></div>
+      </div>
+    </div>
 
+    <!-- Chart 6: Connected Scatter -->
+    <div class="chart-section">
+      <h3>Do Producers Export Everything They Grow?</h3>
+      <p class="narrative">
+        Countries near the <strong>dashed diagonal line</strong> export almost all the coffee they produce.
+        Colombia and Honduras sit close to it — their industries are almost entirely export-oriented.
+        Ethiopia sits noticeably below the line, keeping a large share for domestic consumption.
+        <strong>Vietnam's trajectory</strong> is the most dramatic: its path shoots from the bottom-left
+        corner in 1990 to the upper-right by 2018, as both production and exports grew in lockstep.
+        Larger dots represent more recent years.
+      </p>
+      <div class="chart-wrap">
+        <div id="slope"></div>
+      </div>
+    </div>
 
+    <!-- Chart 7: Dumbbell -->
+    <div class="chart-section">
+      <h3>How Import Habits Changed — 1990 vs 2019</h3>
+      <p class="narrative">
+        Europe remains the heartland of coffee importing, but the gaps between the light (1990) and dark (2019)
+        dots reveal who has grown their habit most. <strong>Germany and Italy</strong> have remained dominant,
+        while Poland's wide gap reflects Eastern Europe's rapidly growing café culture.
+        The United States maintains its position as the world's largest single-country importer,
+        while Japan — the only Asia-Pacific nation in this dataset — shows steady consistent growth.
+      </p>
+      <div class="chart-wrap">
+        <div id="dumbbell"></div>
+      </div>
+    </div>
+
+    <!-- Chart 8: Import Heatmap -->
+    <div class="chart-section">
+      <h3>Import Intensity Over Three Decades</h3>
+      <p class="narrative">
+        The import heatmap tells a story of steady growth punctuated by economic shocks.
+        A slight dimming across many rows in 2008–2009 reflects the <strong>Global Financial Crisis</strong>.
+        <strong>Russia's row</strong> — completely blank in 1990 and gradually brightening from 1992 —
+        captures the transformation of a post-Soviet nation embracing café culture.
+        Belgium's late start (from 1999) reflects the separation of the Belgium-Luxembourg statistical area
+        in trade reporting.
+      </p>
+      <div class="chart-wrap">
+        <div id="heatmap"></div>
+      </div>
+    </div>
+
+    <div class="divider">☕ ☕ ☕</div>
+
+    <!-- ══ ACT 3 ══ -->
+    <div class="act-header">
+      <p class="act-label">Act III</p>
+      <h2>Who Drinks It — and Where Does Australia Fit?</h2>
+      <p class="act-desc">
+        Consumption is where the story becomes personal. For Australians, coffee is not just a beverage
+        — it is a cultural institution. The flat white was invented here. The café scene in Melbourne
+        is regarded as among the finest in the world. But how does Australia actually measure up globally?
+      </p>
+    </div>
+
+    <!-- Chart 9: Scatter -->
+    <div class="chart-section">
+      <h3>Volume vs Per Capita — Two Ways to Measure a Coffee Nation</h3>
+      <p class="narrative">
+        There is no simple relationship between how much a country imports and how much its people drink
+        per person. The United States imports enormous volumes but sits near the global average per capita.
+        Hong Kong's extraordinary per capita figure is driven by its role as a regional trading and
+        re-export hub. <strong>Australia (highlighted in orange)</strong> sits above the global average
+        per capita line, importing a substantial total volume for a country of just 26 million people —
+        a testament to how deeply coffee is embedded in Australian daily life.
+      </p>
+      <div class="chart-wrap">
+        <div id="scatter"></div>
+      </div>
+    </div>
+
+    <div class="pull-quote">
+      <p>"At 5.88 kg per person each year, Australians drink more coffee per capita than Americans, the British, or the Chinese."</p>
+    </div>
+
+    <!-- Chart 10: Australia Stat Card -->
+    <div class="chart-section">
+      <h3>Australia's Coffee at a Glance</h3>
+      <p class="narrative">
+        Australia has built one of the world's most distinctive coffee cultures. Despite a population of
+        just 26 million, Australia ranks <strong>20th globally</strong> in total coffee consumption —
+        placing it alongside countries like Spain, Turkey, and South Korea. The comparison below shows
+        that Australia consumes significantly more than the world average of 87,992 tonnes,
+        sitting comfortably among a group of nations known for their serious coffee cultures.
+      </p>
+      <div class="chart-wrap">
+        <div id="card"></div>
+      </div>
+    </div>
+
+  </div><!-- /content -->
+
+  <!-- ══ FOOTER ══ -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>
+        <h4>Data Sources</h4>
+        <p>
+          Coffee production, import and export data: Food and Agriculture Organization of the United Nations (FAO),
+          <a href="https://www.fao.org/faostat" target="_blank">fao.org/faostat</a><br><br>
+          Coffee consumption and per capita data: International Coffee Organization (ICO),
+          <a href="https://icocoffee.org" target="_blank">icocoffee.org</a>
+        </p>
+      </div>
+      <div>
+        <h4>Acknowledgements</h4>
+        <p>
+          Visualisations built with
+          <a href="https://vega.github.io/vega-lite/" target="_blank">Vega-Lite v6</a>.
+          Generative AI (Claude, Anthropic) was used to assist with code generation
+          and narrative text for this visualisation, in accordance with FIT2179 guidelines.
+        </p>
+      </div>
+      <div class="author-block">
+        FIT2179 Data Visualisation 2 &nbsp;·&nbsp; Monash University &nbsp;·&nbsp;
+        Semester 1, 2026 &nbsp;·&nbsp;
+        Student ID: [YOUR STUDENT ID] &nbsp;·&nbsp;
+        Published: May 2026
+      </div>
+    </div>
+  </footer>
 
   <script>
+    const opt = {actions: false};
     vegaEmbed('#map',      'coffee_consumption.vg.json');
     vegaEmbed('#bump',     'top_10_producer.vg.json');
     vegaEmbed('#area',     'coffee_streamgraph.vg.json');
     vegaEmbed('#heat',     'coffee_heat_map_intensity.vg.json');
     vegaEmbed('#lollipop', 'coffee_export.vg.json');
     vegaEmbed('#slope',    'coffee_slope.vg.json');
-    vegaEmbed('#dumbel',   'coffee_import.vg.json');
+    vegaEmbed('#dumbbell',   'coffee_import.vg.json');
     vegaEmbed('#scater',   'coffee_consumption_aus.vg.json');
     vegaEmbed('#heatmap',  'coffee_import_heat.vg.json');
     vegaEmbed('#card',     'coffee_aus_card.vg.json');
-
-
   </script>
 
 </body>

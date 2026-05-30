@@ -1,5 +1,5 @@
 {
-  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
   "background": "#fdf6ec",
   "width": 900,
   "height": 480,
@@ -18,8 +18,6 @@
   ],
   "title": {
     "text": "Global Coffee Consumption Per Year",
-    "fontSize": 18,
-    "subtitleFontSize": 13,
     "anchor": "start"
   },
   "layer": [
@@ -121,5 +119,17 @@
         "strokeWidth": 0.3
       }
     }
-  ]
+  ],
+  "config": {
+    "title": {
+      "font": "Playfair Display",
+      "fontWeight": "bold",
+      "fontSize": 18,
+      "subtitleFont": "Source Serif 4",
+      "subtitleFontSize": 13,
+      "subtitleFontWeight": "normal",
+      "color": "#3d1c02"
+    },
+    "view": {"stroke": null}
+  }
 }

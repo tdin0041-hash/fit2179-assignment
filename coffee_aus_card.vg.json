@@ -1,5 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+  "background": "#fdf6ec",
   "title": {
     "text": "Australia's Coffee at a Glance",
     "subtitle": "Australia ranks 20th globally in total coffee consumption",
@@ -8,7 +9,7 @@
     "anchor": "start"
   },
   "config": {
-    "view": {"stroke": "#e8d5b7"},
+    "view": {"stroke": null},
     "concat": {"spacing": 15}
   },
   "vconcat": [

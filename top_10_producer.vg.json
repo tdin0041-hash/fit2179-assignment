@@ -2,8 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "background": "#fdf6ec",
   "title": {
-    "text": "The Rise and Fall of Coffee Producers",
-    "subtitle": "Rankings of top 10 countries by production volume (1990–2019)",
+    "text": "Top 10 Coffee Production Contries (1990-2019)",
     "fontSize": 18,
     "subtitleFontSize": 13,
     "anchor": "start"

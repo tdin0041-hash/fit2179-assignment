@@ -3,8 +3,6 @@
   "background": "#fdf6ec",
   "title": {
     "text": "All coffee-exporting countries ranked by total export volume",
-    "fontSize": 18,
-    "subtitleFontSize": 13,
     "anchor": "start"
   },
   "width": 600,
@@ -101,6 +99,15 @@
     }
   ],
   "config": {
+    "title": {
+      "font": "Playfair Display",
+      "fontWeight": "bold",
+      "fontSize": 18,
+      "subtitleFont": "Source Serif 4",
+      "subtitleFontSize": 13,
+      "subtitleFontWeight": "normal",
+      "color": "#3d1c02"
+    },
     "view": {"stroke": null},
     "axis": {"grid": false}
   }

@@ -1,13 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
   "background": "#fdf6ec",
-  "title": {
-    "text": "Coffee Consumption — Volume vs Per Capita",
-    "subtitle": "Each dot is a country. Australia sits above the global average in per capita consumption.",
-    "fontSize": 18,
-    "subtitleFontSize": 13,
-    "anchor": "start"
-  },
   "width": 650,
   "height": 480,
   "data": {

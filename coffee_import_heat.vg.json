@@ -3,8 +3,6 @@
   "background": "#fdf6ec",
   "title": {
     "text": "Top 15 Importing Countries (1990-2019)",
-    "fontSize": 18,
-    "subtitleFontSize": 13,
     "anchor": "start"
   },
   "width": 800,
@@ -50,9 +48,9 @@
       "type": "ordinal",
       "axis": {
         "title": "Year",
-        "labelAngle": -45,
-        "labelFontSize": 10,
-        "values": [1990, 1995, 2000, 2005, 2010, 2015, 2019]
+        "labelAngle": -90,
+        "labelFontSize": 9,
+        "labelOverlap": true
       }
     },
     "y": {
@@ -89,6 +87,15 @@
     ]
   },
   "config": {
+    "title": {
+      "font": "Playfair Display",
+      "fontWeight": "bold",
+      "fontSize": 18,
+      "subtitleFont": "Source Serif 4",
+      "subtitleFontSize": 13,
+      "subtitleFontWeight": "normal",
+      "color": "#3d1c02"
+    },
     "view": {"stroke": null},
     "axis": {"grid": false}
   }

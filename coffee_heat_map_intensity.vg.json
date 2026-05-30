@@ -2,8 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "background": "#fdf6ec",
   "title": {
-    "text": "Coffee Production Intensity by Country",
-    "subtitle": "Annual production in tonnes for top 15 producers (1990–2019)",
+    "text": "Annual production for top 15 country (1990–2019)",
     "fontSize": 18,
     "subtitleFontSize": 13,
     "anchor": "start"

@@ -2,8 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
   "background": "#fdf6ec",
   "title": {
-    "text": "How Has Coffee Importing Changed?",
-    "subtitle": "Import volume in 1990 vs 2019 for top importing countries (tonnes)",
+    "text": "Import volume in 1990 vs 2019 for top importing countries (tonnes)",
     "fontSize": 18,
     "subtitleFontSize": 13,
     "anchor": "start"

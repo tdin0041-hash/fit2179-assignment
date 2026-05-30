@@ -80,7 +80,7 @@
               }
             },
             {
-              "data": {"values": [{"x": 100, "y": 75, "text": "TOTAL IMPORTS"}]},
+              "data": {"values": [{"x": 100, "y": 75, "text": "TOTAL CONSUMPTION"}]},
               "mark": {"type": "text", "fontSize": 10, "fontWeight": "bold", "color": "#888888"},
               "encoding": {
                 "x": {"field": "x", "type": "quantitative", "scale": {"domain": [0, 200]}, "axis": null},
